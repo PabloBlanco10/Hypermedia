@@ -2,34 +2,34 @@
 
 /* The menu is in the left side */
 
-ul {
-  bottom: 0;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: midnightblue;
+.navbar-default {
+    background-color: darkblue;
+    border-color: #e7e7e7;
+}
+
+.topright {
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  color:white
+}
+
+.bottomright {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+  color:white
+}
+.nav.nav-tabs li a {
+  color:white
 }
 
 li {
-	border-right: 1px solid #bbb;
-	float: left;
-}
-
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 10px 50px;
-	text-decoration: none;
+  margin: 15px;
+  float: left;
 }
 
 .active {
-    background-color: white;
-    color: black;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-	background-color: #111;
+  background-color: grey;
+  color: black;
 }
