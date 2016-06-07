@@ -11,25 +11,55 @@
   position: absolute;
   top: 15px;
   right: 16px;
-  color:white
+  color:black;
+  background-color: white;
+  padding: 5px 10px;
+  border-style: solid;
+  font-family: monospace;
+  font-size: 15px;
+
 }
 
 .bottomright {
   position: absolute;
-  bottom: 16px;
-  right: 16px;
-  color:white
+  bottom: 20px;
+  right: 20px;
+  color:black;
+  background-color: white;
+  padding: 5px 10px;
+  border-style: solid;
+  font-family: monospace;
+  font-size: 15px;
+
 }
 .nav.nav-tabs li a {
-  color:white
+  color:white  
 }
 
 li {
-  margin: 15px;
+  margin: 0px 50px;
   float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .active {
   background-color: grey;
   color: black;
+}
+
+.container {
+    background-color: white;
+    color:black
+}
+
+figcaption{
+  margin-top: 1px;
+  display: block;
+  color:black;
+  background-color: white;
+  padding: 3px 10px;
+  border-style: solid;
+  font-family: monospace;
+  font-size: 15px;
 }
