@@ -5,62 +5,31 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<!-- Descrption -->
 		<title>TIM-Page</title>
 		<meta name="author" content="Jorge Santos & Pablo Blanco">
 		<meta charset="utf-8">
 		<meta name="description" content="WebSite similar to TIM done for the subject Hypermedia Applications">
 		<meta name="keywords" content="TIM, HYP, HTML, CSS">
 
-		<meta name="viewport" content="width=device-width, initial-scale=1"><!--For Mobiles-->
+		<!-- For Mobiles -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Scripts -->
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<!--	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
-		<!--	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>-->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- Load Header and Footer -->
+		<script src="../javascript/script.js" type="text/javascript"></script>
 	</head>
 
-	<body style="padding-top: 70px;">
+	<!-- Load header -->
+	<div id="header"></div>
 
-		<!-- Menu -->
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<li><a href="index.html"><img src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo" style="width:320px;height:110px;"> 
-					</a></li>
-			</div>
-
-			<div class="collapse navbar-collapse" id="myNavbar" align="center">
-				<ul class="nav nav-tabs" id="landmarks">
-					<li><figure><a href="device.html"><img src="../img/Devices.jpg" style="width:100px;height:80px" alt="Device">
-						<figcaption>DEVICE</figcaption></a></figure>
-					</li>
-
-					<li>
-						<figure><a href="#"><img src="../img/SL.jpg" style="width:140px;height:80px" alt="Smart Life Service">
-							<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
-					</li>
-
-					<li>
-						<figure><a href="#"><img src="../img/Assistance%20Service.PNG" style="width:145px;height:80px" alt="Assistance-Service">
-							<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
-					</li>
-
-					<ul class="nav navbar-nav navbar-right">
-						<div class="container">
-							<a href="#"><div class="topright">WHO WE ARE</div></a>
-							<a href="#"><div class="bottomright">MY TIM</div></a>
-						</div>
-					</ul>
-				</ul>
-			</div>
-		</nav>
-
-		<br>
-		<br>
-
+	<!-- Body -->
+	<body style="padding-top: 70px;" bgcolor = "lightgrey">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-6">
@@ -95,8 +64,6 @@
 
 				</div>
 			</div>
-
-
 		</div>
 
 		<br>
@@ -105,24 +72,8 @@
 			<img src="../img/promotions.jpg"
 				  style="width:400px;height:100px" alt="Promotions">
 		</div>
-
-		<!-- Footer -->
-
-		<br>
-		<br>
-		<footer class="footer">
-			<div class="container">
-				<ul class="list-unstyled">
-					<li><p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-						<img src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-					</li>
-					<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739
-						</p>							
-					</li>
-					<li><a href="#" class="text-request-info">Request Info</a></li>
-					<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
-				</ul>
-			</div>
-		</footer>
 	</body>
+
+	<!-- Load header -->
+	<div id="footer"></div>
 </html>
