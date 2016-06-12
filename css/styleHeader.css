@@ -1,0 +1,225 @@
+/* Header */
+.header {
+	width: 100%; 
+	left: 0;
+	top: 0; 
+	height: 140px;
+	overflow: hidden;
+	position: fixed;
+	background-color: darkblue;
+	transition: height 0.3s;
+}
+
+.header img#logo {
+	display: inline=block;
+	width: 320px;	
+	height: 120px;
+	float: left;
+	transition: all 0.3s;
+	margin: 10px 35px;
+}
+
+.header img{
+	margin-top: 10px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black; 
+	transition: all 0.3s;
+}
+
+img#device{
+	width: 100px;	
+	height: 80px;
+}
+
+img#smartlife{
+	width: 140px;	
+	height: 80px;
+}
+
+img#assistance{
+	width: 145px;	
+	height: 80px;
+}
+
+.header figcaption{
+	margin-top: 3px;
+	margin-left: 45px;
+	margin-right: 45px;
+	padding: 3px 10px;
+	text-align: center;
+	color:black;
+	background-color: white;
+	border-style: solid;
+	font-family: monospace;
+	font-size: 15px;
+	transition: all 0.3s;
+}
+
+.header nav {
+	display: inline=block;
+}
+
+.header div.topright {
+	position: absolute;
+	top: 15px;
+	right: 16px;
+	color:black;
+	background-color: white;
+	padding: 5px 10px;
+	border-style: solid;
+	font-family: monospace;
+	font-size: 15px;
+	transition: all 0.3s;
+}
+
+.header div.bottomright {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	color:black;
+	background-color: white;
+	padding: 5px 10px;
+	border-style: solid;
+	font-family: monospace;
+	font-size: 15px;
+	transition: all 0.3s;
+}
+
+/* When its smaller */
+.header.smaller {
+	height: 95px;
+}
+
+.header.smaller img{
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-right: 30px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: black; 
+	transition: all 0.3s;
+}
+
+.header.smaller figcaption{
+	margin-top: 1px;
+	padding: 1px 6px;
+	color:black;
+	background-color: white;
+	border-style: solid;
+	font-family: monospace;
+	font-size: 13px;
+	transition: all 0.3s;
+}
+
+.header.smaller img#logo {
+	width: 150px;
+	height: 75px;
+}
+
+.header.smaller img#device{
+	width: 70px;	
+	height: 60px;
+}
+
+.header.smaller img#smartlife{
+	width: 90px;	
+	height: 60px;
+}
+
+.header.smaller img#assistance{
+	width: 90px;	
+	height: 60px;
+}
+
+.header.smaller div.topright{
+	position: absolute;
+	top: 10px;
+	right: 16px;
+	color:black;
+	background-color: white;
+	padding: 1px 3px;
+	border-style: solid;
+	font-family: monospace;
+	font-size: 13px;
+
+}
+
+.header.smaller div.bottomright{
+	position: absolute;
+	bottom: 16px;
+	right: 16px;
+	color:black;
+	background-color: white;
+	padding: 3px 7px;
+	border-style: solid;
+	font-family: monospace;
+	font-size: 13px;
+
+}
+
+/* This is for being responsive 
+@media all and (max-width: 660px) {
+.header img#logo {
+display: block;
+float: none;
+margin: 0 auto;
+height: 100px;
+line-height:100px;
+text-align: center;
+}
+.header nav {
+display: block;
+float: none;
+height: 50px;
+line-height:50px;
+text-align: center;
+margin: 0 auto;
+}
+.header nav a {
+line-height: 50px;
+margin: 0 10px;
+}
+.header.smaller {
+height: 75px;
+}
+.header.smaller img#logo {
+height: 30px;
+width: 80px;
+}
+.header.smaller nav {
+height: 35px;
+line-height:35px;
+}
+.header.smaller nav a {
+line-height: 15px;
+}
+}	
+
+body{
+background-color: lightgrey;
+
+}
+.row{
+margin-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.row2{
+margin-left: auto;
+margin-top: auto;
+margin-right: auto;
+
+}
+
+.promotion > img{
+border-color: lightgray;
+}
+img{
+border-style: solid;
+border-width: 3px;
+border-color: black;
+}*/
