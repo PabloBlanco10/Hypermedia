@@ -1,6 +1,7 @@
 /* CSS pages */
 
 /* Footer */
+.footer li {
 	margin: 0px 50px;
 	float: left;
 	margin-bottom: 20px;
