@@ -7,7 +7,7 @@
 	overflow: hidden;
 	position: fixed;
 	background-color: darkblue;
-	transition: height 0.3s;
+	transition: all 0.3s;
 }
 
 .header img#logo {
@@ -15,7 +15,6 @@
 	width: 320px;	
 	height: 120px;
 	float: left;
-	transition: all 0.3s;
 	margin: 10px 35px;
 }
 
@@ -26,7 +25,6 @@
 	border-style: solid;
 	border-width: 3px;
 	border-color: black; 
-	transition: all 0.3s;
 }
 
 img#device{
@@ -55,7 +53,6 @@ img#assistance{
 	border-style: solid;
 	font-family: monospace;
 	font-size: 15px;
-	transition: all 0.3s;
 }
 
 .header nav {
@@ -72,7 +69,6 @@ img#assistance{
 	border-style: solid;
 	font-family: monospace;
 	font-size: 15px;
-	transition: all 0.3s;
 }
 
 .header div.bottomright {
@@ -85,7 +81,6 @@ img#assistance{
 	border-style: solid;
 	font-family: monospace;
 	font-size: 15px;
-	transition: all 0.3s;
 }
 
 /* When its smaller */
@@ -111,7 +106,6 @@ img#assistance{
 	border-style: solid;
 	font-family: monospace;
 	font-size: 13px;
-	transition: all 0.3s;
 }
 
 .header.smaller img#logo {

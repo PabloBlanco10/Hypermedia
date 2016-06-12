@@ -1,3 +1,33 @@
+/* Body */
+body{
+	background-color: lightgrey;
+}
+
+.row{
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.row2{
+	margin: 10px, 0;
+	margin-left: 50px;
+	margin-right: 50px;
+
+}
+
+.promotion > img{
+	border-color: lightgray;
+}
+.highlights > img{
+	border-color: lightgray;
+}
+img{
+	border-style: solid;
+	border-width: 3px;
+	border-color: black;
+}
+
 /* Breadcrumbs */
 /** The Magic **/
 .btn-breadcrumb .btn:not(:last-child):after {
@@ -58,34 +88,3 @@
 	border-left: 10px solid #adadad;
 }
 /* ----------- END BREADCRUMB --------- */ 
-
-
-/* Body */
-body{
-	background-color: lightgrey;
-}
-
-.row{
-	margin-top: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
-}
-
-.row2{
-	margin: 10px, 0;
-	margin-left: 50px;
-	margin-right: 50px;
-
-}
-
-.promotion > img{
-	border-color: lightgray;
-}
-.highlights > img{
-	border-color: lightgray;
-}
-img{
-	border-style: solid;
-	border-width: 3px;
-	border-color: black;
-}
