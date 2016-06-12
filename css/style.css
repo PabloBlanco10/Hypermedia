@@ -9,13 +9,6 @@ body{
 	margin-right: 50px;
 }
 
-.row2{
-	margin: 10px, 0;
-	margin-left: 50px;
-	margin-right: 50px;
-
-}
-
 .promotion > img{
 	border-color: lightgray;
 }
@@ -28,17 +21,16 @@ img{
 	border-color: black;
 }
 
-/* Breadcrumbs */
-/** The Magic **/
+/** Breadcrumbs **/
 .btn-breadcrumb .btn:not(:last-child):after {
 	content: " ";
+	position: absolute;
 	display: block;
 	width: 0;
 	height: 0;
 	border-top: 17px solid transparent;
 	border-bottom: 17px solid transparent;
 	border-left: 10px solid white;
-	position: absolute;
 	top: 50%;
 	margin-top: -17px;
 	left: 100%;
