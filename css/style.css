@@ -81,9 +81,6 @@ body{
 .promotion > img{
 	border-color: lightgray;
 }
-.highlights > img{
-	border-color: lightgray;
-}
 img{
 	border-style: solid;
 	border-width: 3px;
