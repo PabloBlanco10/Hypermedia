@@ -1,8 +1,4 @@
-<!-- WebSite similar to TIM -->
-<!-- Done by Pablo Blanco & Jorge Santos, students from Politecnico Di Milano -->
-
-<!-- Index Page -->
-
+<!-- Device Page -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -27,6 +23,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
 	</head>
+
 
 	<!-- Load header -->
 	<div class="header">	
@@ -57,32 +54,46 @@
 		</div>
 	</div>
 
-	<!-- BreadCrumbs -->
-	<div class="btn-group btn-breadcrumb">
-		<a href="index.html" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
-	</div>
 
 	<!-- Body -->
 	<body>
-		<div class="row">
-			<img src="../img/iphone6.JPG"
-				  style="width:585px;height:300px" alt="Iphone6"/>
-			<img src="../img/640x480_MayS7.jpg"
-				  style="width:585px;height:300px" alt="Tablets"/>
-		</div>
+		<form class="form-horizontal" role="form">
 
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="name">Name:</label>
+				<div class="col-sm-3	">
+					<input type="name" class="form-control" id="name" placeholder="Insert your name...">
+				</div>
+			</div>
 
-		<div class="row">
-			<img src="../img/Networking%20(1).jpg"
-				  style="width:585px;height:300px" alt="Networking"/>
-			<img src="../img/tvsmartliving.jpg"
-				  style="width:585px;height:300px" alt="TvSmartiliving"/>
-		</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">E-Mail:</label>
+				<div class="col-sm-3">
+					<input type="email" class="form-control" id="email" placeholder="Insert your email...">
+				</div>
+			</div>
 
-		<div class="row">
-			<img src="../img/outlet.jpg"
-				  style="width:1175px;height:300px" alt="Outlet"/>
-		</div> 
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="phone">Phone:</label>
+				<div class="col-sm-3">
+					<input type="phone" class="form-control" id="phone" placeholder="Insert your phone...">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="request">Request:</label>
+				<div class="col-sm-7">
+					<input type="request" class="form-control" id="request" placeholder="Insert your request...">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">HOME</button>
+				</div>
+			</div>
+
+		</form>
 
 		<!-- Load footer -->
 		<br>
@@ -97,6 +108,5 @@
 				<li><a href="#" class="text-request-info">Request Info</a></li>
 				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 			</ul>
-		</footer>	
-	</body>
+		</footer>	</body>
 </html>

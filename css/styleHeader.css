@@ -8,6 +8,7 @@
 	position: fixed;
 	background-color: darkblue;
 	transition: all 0.3s;
+	z-index: 3;
 }
 
 .header img#logo {
@@ -96,6 +97,7 @@ img#assistance{
 	border-width: 3px;
 	border-color: black; 
 	transition: all 0.3s;
+	z-index: 3;
 }
 
 .header.smaller figcaption{
