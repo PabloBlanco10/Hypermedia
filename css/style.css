@@ -1,12 +1,12 @@
 /* Body */
 body{
+	margin-top: 13%;
 	background-color: lightgrey;
 }
 
 .row{
-	margin-top: 10px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 3.5%;
+	margin-right: 3.5%;
 }
 
 .promotion > img{
@@ -24,7 +24,7 @@ img{
 /** Breadcrumbs **/
 .btn-breadcrumb .btn:not(:last-child):after {
 	content: " ";
-	position: absolute;
+	position: fixed;
 	display: block;
 	width: 0;
 	height: 0;
@@ -34,7 +34,7 @@ img{
 	top: 50%;
 	margin-top: -17px;
 	left: 100%;
-	z-index: 3;
+	z-index: 1;
 }
 .btn-breadcrumb .btn:not(:last-child):before {
 	content: " ";
@@ -44,17 +44,16 @@ img{
 	border-top: 17px solid transparent;
 	border-bottom: 17px solid transparent;
 	border-left: 10px solid rgb(173, 173, 173);
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	margin-top: -17px;
 	margin-left: 1px;
 	left: 100%;
-	z-index: 3;
+	z-index: 1;
 }
 
 /** The Spacing **/
 .btn-breadcrumb .btn {
-	margin-top: 160px;
 	margin-bottom: 10px;
 	padding:6px 12px 6px 24px;
 }
