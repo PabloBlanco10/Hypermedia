@@ -1,5 +1,6 @@
-<!-- Device Page -->
+<!-- Request Info Page -->
 <!DOCTYPE html>
+
 <html lang="en">
 	<head>
 		<!-- Descrption -->
@@ -58,10 +59,15 @@
 	<!-- Body -->
 	<body>
 		<form class="form-horizontal" role="form">
+			<div class="form-group">
+				<div class="control-label col-sm-4">
+					<h1>INFO REQUEST</h1>
+				</div>
+			</div>
 
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="name">Name:</label>
-				<div class="col-sm-3	">
+				<div class="col-sm-3">
 					<input type="name" class="form-control" id="name" placeholder="Insert your name...">
 				</div>
 			</div>
@@ -83,16 +89,17 @@
 			<div class="form-group">
 				<label class="control-label col-sm-2" for="request">Request:</label>
 				<div class="col-sm-7">
-					<input type="request" class="form-control" id="request" placeholder="Insert your request...">
+					<textarea class="form-control" rows="10" cols="110" id="request" placeholder="Insert your request..."></textarea>
 				</div>
 			</div>
 
 			<div class="form-group">
 				<div class="col-sm-offset-2 col-sm-10">
-					<button type="submit" class="btn btn-default">HOME</button>
+					<a href="index.html" class="btn btn-default">HOME</a>
+					<!-- El boton SEND te lleva a HOME -->
+					<a href="index.html" class="btn btn-default sendButton">SEND</a>
 				</div>
 			</div>
-
 		</form>
 
 		<!-- Load footer -->
@@ -108,5 +115,6 @@
 				<li><a href="#" class="text-request-info">Request Info</a></li>
 				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 			</ul>
-		</footer>	</body>
+		</footer>	
+	</body>
 </html>

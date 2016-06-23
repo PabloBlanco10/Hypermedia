@@ -21,6 +21,14 @@ img{
 	border-color: black;
 }
 
+a.sendButton{
+	margin-left: 50%;	
+}
+
+h1{
+	color:dodgerblue;
+}
+
 /** Breadcrumbs **/
 .btn-breadcrumb .btn:not(:last-child):after {
 	content: " ";
