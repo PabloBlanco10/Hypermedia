@@ -41,6 +41,57 @@ img{
 	opacity: 0.8;
 }
 
+.imagenWithButton > h2 {
+	text-align: center;
+	position: absolute; 
+	top: 320px; 
+	left: 55%; 
+	color:black;
+	padding: 10px 20px;
+	border-style: solid;
+	font-family: monospace;
+	opacity: 0.8;
+}
+
+.blueButton{
+	background-color: dodgerblue;
+}
+
+.yellowButton{
+	background-color: yellow;
+}
+
+.greenButton{
+	background-color: forestgreen;
+}
+
+.imagenWithButton > p, h1 {
+	width: 450px;
+	text-align: center;
+	position: absolute; 
+}
+
+.imagenWithButton > p {
+	top: 150px; 
+	left: 30%; 
+	font-size: 180%;
+}
+
+.imagenWithButton > h1 {
+	top: 20px; 
+	left: 30%; 
+}
+
+.blueText{
+	color: blue;
+}
+.yellowText	{
+	color:darkgoldenrod;
+}
+.greenText{
+	color: forestgreen;
+}
+
 .outlet > h3{
 	text-align: center;
 	position: absolute; 
@@ -52,6 +103,14 @@ img{
 	border-style: solid;
 	font-family: monospace;
 	opacity: 0.8;
+}
+
+ul.pagination{
+	position: absolute;
+	border-style: solid;
+	margin-left: 35%;
+	margin-bottom: 30px;
+	z-index: 2;
 }
 
 /** Info Request **/
