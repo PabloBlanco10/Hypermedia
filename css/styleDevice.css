@@ -9,34 +9,27 @@ figcaption.textFigure{
 	margin-top: 10px;
 }
 
-.imagenWithButton > h2 {
+.imagenWithButton > h3 {
 	text-align: center;
-	position: absolute; 
-	top: 320px; 
-	left: 55%; 
+	position: static; 
+	left: 30%; 
 	color:black;
+	background-color: white;
 	padding: 10px 20px;
 	border-style: solid;
 	font-family: monospace;
 	opacity: 0.8;
+	margin-top: -1px;
 }
 
 ul.pagination{
 	position: absolute;
 	border-style: solid;
-	margin-left: 35%;
+	margin-left: 28%;
 	margin-bottom: 30px;
 	z-index: 2;
 }
 
-h3.personText {
-	width: 1000px;
-	color:black;
-	background-color: wheat;
-	padding: 10px 20px;
-	border-style: solid;
-	font-family: monospace;
-}
 
 .blueButton{
 	background-color: dodgerblue;
