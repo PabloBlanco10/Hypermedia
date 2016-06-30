@@ -8,7 +8,47 @@ figcaption.textFigure{
 	margin-bottom: 20px;
 	margin-top: 10px;
 }
+.panel{
+	margin-right: 30px;
+	margin-left: 30px;
 
+}
+.imagenDetails{
+	position:absolute;
+	margin-top: -150px; 
+	left: 1100px;
+
+}
+
+.img-noborder{
+	border-style: none;
+	margin-left: 50px;
+}
+
+.panel-body{
+	border-style: solid;
+	margin-top: -1px;
+}
+
+div.itemfont{
+	font-family: monospace;
+	position: absolute;
+	margin-top: -220px;
+	left: 600px;
+	margin-left: auto;
+	color:black;
+	font-size: 30px;
+}
+
+div.prizefont{
+	font-family: monospace;
+	position: absolute;
+	margin-top: -100px;
+	left: 700px;
+	margin-left: auto;
+	color:red;
+	font-size: 30px;
+}
 .imagenWithButton > h3 {
 	text-align: center;
 	position: static; 
