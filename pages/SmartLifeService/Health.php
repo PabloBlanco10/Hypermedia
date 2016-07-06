@@ -18,11 +18,13 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 		<!-- CSS Pages -->
-		<script src="../../javascript/script.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="../../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../../css/styleSmartLifeService.css">
-		<link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
-		<link rel="stylesheet" type="text/css" href="../../css/styleFooter.css">
+		<script src="script.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="styleSmartLifeService.css">
+		<link rel="stylesheet" type="text/css" href="styleHeader.css">
+		<link rel="stylesheet" type="text/css" href="styleFooter.css">
+
+		<?php require_once '../../php/ConnectionsDB.php'; ?>
 	</head>
 
 
@@ -91,15 +93,24 @@
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/samsung-galaxy-gear-s-2_0.jpg" style="width:250px;height:200px" alt="SamsungGearS2" align="center"><figcaption class="textFigure">Galaxy Gear S</figcaption>
+						<img class="img-responsive" src="getImage.php?id=1" style="width:250px;height:200px" alt="SamsungGearS2" align="center"><figcaption class="textFigure"><?php
+							$array = array();
+							$array = getDevice('1');
+							echo $array[0];
+							?></figcaption>
 					</div> 
 				</a>
 			</td>
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/Loop%20H7%20HR.jpg" style="width:250px;height:200px" alt="Loop" align="center">
-						<figcaption class="textFigure">Loop H7 HR</figcaption>
+
+						<img class="img-responsive" src="getImage.php?id=2" style="width:250px;height:200px" alt="Loop" align="center">
+						<figcaption class="textFigure"><?php
+							$array = array();
+							$array = getDevice('2');
+							echo $array[0];
+							?></figcaption>
 					</div> 
 				</a>
 			</td>
