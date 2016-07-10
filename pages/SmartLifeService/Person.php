@@ -1,4 +1,4 @@
-<!-- Smart Life - Home -->
+<!-- Smart Life - Person -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -23,6 +23,8 @@
 		<link rel="stylesheet" type="text/css" href="../../css/styleSmartLifeService.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleFooter.css">
+		
+		<?php require_once '../../php/ConnectionsDB.php'; ?>
 	</head>
 
 
@@ -59,7 +61,7 @@
 	<div class="btn-group btn-breadcrumb">
 		<a href="../index.html" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
 		<a href="../smartLife.html" class="btn btn-default">SMART LIFE SERVICE</a>
-		<a href="Home.html" class="btn btn-default">HOME</a>
+		<a href="Person.html" class="btn btn-default">PERSON</a>
 	</div>
 
 
@@ -70,16 +72,16 @@
 		<ul class="pagination">
 			<li><a href="TV-Enterteiment.html">TV & ENTERTEIMENT</a></li>
 			<li><a href="Health.html">HEALTH</a></li>
-			<li class="active"><a href="Home.html">HOME</a></li>
-			<li><a href="Person.html">PERSON</a></li>
+			<li><a href="Home.html">HOME</a></li>
+			<li class="active"><a href="Person.html">PERSON</a></li>
 		</ul>
 
 
 		<table align="center" style="margin-top:50px">	
 			<td> 		
-				<div class="imagenWithButton" align="center">
-					<img class="img-responsive" src="../../img/Glenn-Layton-Homes-Connected.jpg" style="width:1000px;height:330px" alt="TvEnterteiment" align="center">
-					<h3 style="width:500px">Smart Life also means a simpler and safer life.</h3>
+				<div align="center">
+					<img class="img-responsive" src="../../img/family-ties.jpg" style="width:1000px;height:350px" alt="TvEnterteiment" align="center">
+					<h3 class="personText">BECAUSE THE MOST IMPORTANT THING, IT'S TO TAKE CARE OF YOUR FAMILY</h3>
 				</div> 
 			</td>
 		</table>
@@ -88,23 +90,46 @@
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/timtag.jpg" style="width:300px;height:200px" alt="TimTag" align="center"><figcaption class="textFigure">TIM TAG</figcaption>
+						<?php
+						$array = array();
+						$array = getDevice('12');
+						?>
+						<img class="img-responsive" src="../../Db/getImage.php?id=12" style="width:275px;height:200px" alt="WerHome" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
 			</td>
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/house_connected.png" style="width:350px;height:200px" alt="House" align="center">
-						<figcaption class="textFigure">Home Connect</figcaption>
+						<?php
+						$array = array();
+						$array = getDevice('13');
+						?>
+						<img class="img-responsive" src="../../Db/getImage.php?id=13" style="width:275px;height:200px" alt="LivingColours" align="center">
+						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
 			</td>
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/dlink.jpg" style="width:300px;height:200px" alt="GalaxyGearFit" align="center">
-						<figcaption class="textFigure">D-Link</figcaption>
+						<?php
+						$array = array();
+						$array = getDevice('14');
+						?>
+						<img class="img-responsive" src="../../Db/getImage.php?id=14" style="width:275px;height:200px" alt="Repeater" align="center">
+						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+					</div> 
+				</a>
+			</td>
+			<td> 
+				<a href="#">
+					<div class="imagenWithButton" align="center">
+						<?php
+						$array = array();
+						$array = getDevice('15');
+						?>
+						<img class="img-responsive" src="../../Db/getImage.php?id=15" style="width:275px;height:200px" alt="VideoCamera" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
 			</td>

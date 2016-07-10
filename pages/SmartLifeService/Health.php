@@ -93,32 +93,42 @@
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="getImage.php?id=1" style="width:250px;height:200px" alt="SamsungGearS2" align="center"><figcaption class="textFigure"><?php
-							$array = array();
-							$array = getDevice('1');
-							echo $array[0];
-							?></figcaption>
+						<?php
+						$array = array();
+						$array = getDevice('5');
+						?>
+						<img class="img-responsive" src="../../Db/getImage.php?id=5" style="width:250px;height:200px" alt="SamsungGearS2" align="center">
+						<figcaption class="textFigure">
+							<?php echo $array[0]; ?>
+						</figcaption>
 					</div> 
 				</a>
 			</td>
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-
-						<img class="img-responsive" src="getImage.php?id=2" style="width:250px;height:200px" alt="Loop" align="center">
-						<figcaption class="textFigure"><?php
-							$array = array();
-							$array = getDevice('2');
-							echo $array[0];
-							?></figcaption>
+						<?php
+						$array = array();
+						$array = getDevice('6');
+						?>
+						<img class="img-responsive" src="../../Db/getImage.php?id=6" style="width:250px;height:200px" alt="Loop" align="center">
+						<figcaption class="textFigure">
+							<?php echo $array[0]; ?>
+						</figcaption>
 					</div> 
 				</a>
 			</td>
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/Samsung-Galaxy-Gear-Fit.jpg" style="width:250px;height:200px" alt="GalaxyGearFit" align="center">
-						<figcaption class="textFigure">Galaxy Gear Fit</figcaption>
+						<?php
+						$array = array();
+						$array = getDevice('7');
+						?>
+						<img class="img-responsive" src="../../Db/getImage.php?id=7" style="width:250px;height:200px" alt="GalaxyGearFit" align="center">
+						<figcaption class="textFigure">
+							<?php echo $array[0]; ?>
+						</figcaption>
 					</div> 
 				</a>
 			</td>
