@@ -26,15 +26,19 @@ function getDevice($id){
 }
 
 function getSmartLifeService($id){
-	$username = "hyp43tim";
+	/*$username = "hyp43tim";
 	$password = "";
 	$host = "ftp.hyp43tim.altervista.org";
+	$database = "my_hyp43tim";*/
+	$username = "root";
+	$password = "";
+	$host = "localhost";
 	$database = "my_hyp43tim";
 
 	$db = mysql_connect($host, $username, $password) or die("Unable to connect with the DataBase");
 	mysql_select_db($database, $db) or die("Unable to connect with the DataBase"); 
 
-	$consulta = sprintf("SELECT * FROM Device where ID = '$id'");
+	$consulta = sprintf("SELECT * FROM SmartLifeService where ID = '$id'");
 	$resultado = mysql_query($consulta);
 	$arr = array();
 	if ($fila = mysql_fetch_assoc($resultado)) {
@@ -49,15 +53,19 @@ function getSmartLifeService($id){
 }
 
 function getAssistanceService($id){
-	$username = "hyp43tim";
+	/*$username = "hyp43tim";
 	$password = "";
 	$host = "ftp.hyp43tim.altervista.org";
+	$database = "my_hyp43tim";*/
+	$username = "root";
+	$password = "";
+	$host = "localhost";
 	$database = "my_hyp43tim";
 
 	$db = mysql_connect($host, $username, $password) or die("Unable to connect with the DataBase");
 	mysql_select_db($database, $db) or die("Unable to connect with the DataBase"); 
 
-	$consulta = sprintf("SELECT * FROM Device where ID = '$id'");
+	$consulta = sprintf("SELECT * FROM AssistanceService where ID = '$id'");
 	$resultado = mysql_query($consulta);
 	$arr = array();
 	if ($fila = mysql_fetch_assoc($resultado)) {
