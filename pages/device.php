@@ -29,27 +29,27 @@
 
 	<!-- Load header -->
 	<div class="header">	
-		<figure><a href="index."><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+		<figure><a href="index.php"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
 
 		<div align="center">		
 			<ul class="nav nav-tabs" id="landmarks">
-				<li><figure align="center"><a href="device."><img src="../img/Devices.jpg" id="device" alt="Device">
+				<li><figure align="center"><a href="device.php"><img src="../img/Devices.jpg" id="device" alt="Device">
 					<figcaption>DEVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="smartLife."><img src="../img/SL.jpg" id="smartlife" alt="Smart Life Service">
+					<figure><a href="smartLife.php"><img src="../img/SL.jpg" id="smartlife" alt="Smart Life Service">
 						<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="assistanceService."><img src="../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
+					<figure><a href="assistanceService.php"><img src="../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
 						<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
 				</li>
 
 				<div class="container">
-					<a href="WhoWeAre."><div class="topright">WHO WE ARE</div></a>
-					<a href="MyTim."><div class="bottomright">MY TIM</div></a>
+					<a href="WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
+					<a href="MyTim.php"><div class="bottomright">MY TIM</div></a>
 				</div>
 
 			</ul>
@@ -58,15 +58,15 @@
 
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
-		<a href="index." class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
-		<a href="device." class="btn btn-default">DEVICE</a>
+		<a href="index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
+		<a href="device.php" class="btn btn-default">DEVICE</a>
 	</div>
 
 	<!-- Body -->
 	<body>
 		<table align="center">
 			<td> 		
-				<a href="../pages/Devices/smartphone.">
+				<a href="../pages/Devices/smartphone.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/smartphones.jpg" style="width:585px;height:300px" alt="Smartphones">
 						<h3>SMARTPHONE</h3>
@@ -74,7 +74,7 @@
 				</a> 
 			</td>
 			<td>
-				<a href="../pages/Devices/tablet.">
+				<a href="../pages/Devices/tablet.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/tablets%20(1).jpg" style="width:585px;height:300px" alt="Smartphones">
 						<h3>TABLET</h3>	
@@ -130,7 +130,7 @@
 				</li>
 				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
 				</li>
-				<li><a href="infoRequest." class="text-request-info">Request Info</a></li>
+				<li><a href="infoRequest.php" class="text-request-info">Request Info</a></li>
 				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 			</ul>
 		</footer>	
