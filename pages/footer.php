@@ -12,7 +12,7 @@
 		</li>
 		<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
 		</li>
-		<li><a href="infoRequest.html" class="text-request-info">Request Info</a></li>
+		<li><a href="infoRequest.php" class="text-request-info">Request Info</a></li>
 		<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 	</ul>
 </footer>

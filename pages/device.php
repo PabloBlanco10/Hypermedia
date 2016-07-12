@@ -1,3 +1,6 @@
+<!-- WebSite similar to TIM -->
+<!-- Done by Pablo Blanco & Jorge Santos, students from Politecnico Di Milano -->
+
 <!-- Device Page -->
 <!DOCTYPE html>
 <html lang="en">
@@ -24,30 +27,29 @@
 		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
 	</head>
 
-
 	<!-- Load header -->
 	<div class="header">	
-		<figure><a href="index.html"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+		<figure><a href="index."><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
 
 		<div align="center">		
 			<ul class="nav nav-tabs" id="landmarks">
-				<li><figure align="center"><a href="device.html"><img src="../img/Devices.jpg" id="device" alt="Device">
+				<li><figure align="center"><a href="device."><img src="../img/Devices.jpg" id="device" alt="Device">
 					<figcaption>DEVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="smartLife.html"><img src="../img/SL.jpg" id="smartlife" alt="Smart Life Service">
+					<figure><a href="smartLife."><img src="../img/SL.jpg" id="smartlife" alt="Smart Life Service">
 						<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="assistanceService.html"><img src="../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
+					<figure><a href="assistanceService."><img src="../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
 						<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
 				</li>
 
 				<div class="container">
-					<a href="WhoWeAre.html"><div class="topright">WHO WE ARE</div></a>
-					<a href="MyTim.html"><div class="bottomright">MY TIM</div></a>
+					<a href="WhoWeAre."><div class="topright">WHO WE ARE</div></a>
+					<a href="MyTim."><div class="bottomright">MY TIM</div></a>
 				</div>
 
 			</ul>
@@ -56,26 +58,26 @@
 
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
-		<a href="index.html" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
-		<a href="smartLife.html" class="btn btn-default">ASSISTANCE SERVICE</a>
+		<a href="index." class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
+		<a href="device." class="btn btn-default">DEVICE</a>
 	</div>
 
+	<!-- Body -->
 	<body>
-		<!-- Body -->
 		<table align="center">
 			<td> 		
-				<a href="#">
+				<a href="../pages/Devices/smartphone.">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/bottom_networking.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>LINE MANAGEMENT</h3>
+						<img class="img-responsive" src="../img/smartphones.jpg" style="width:585px;height:300px" alt="Smartphones">
+						<h3>SMARTPHONE</h3>
 					</div>
 				</a> 
 			</td>
 			<td>
-				<a href="#">
+				<a href="../pages/Devices/tablet.">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/tarjeta-credito.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>MONITORING COSTS</h3>	
+						<img class="img-responsive" src="../img/tablets%20(1).jpg" style="width:585px;height:300px" alt="Smartphones">
+						<h3>TABLET</h3>	
 					</div> 
 				</a>
 			</td>
@@ -85,26 +87,37 @@
 			<td> 
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/tech_support_help.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>TECHNICAL SUPPORT</h3>	
+						<img class="img-responsive" src="../img/Networking%20(1).jpg" style="width:585px;height:300px" alt="Smartphones">
+						<h3>MODEM & NETWORKING</h3>	
 					</div> 
 				</a>
 			</td>
 			<td>
 				<a href="#">
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/smartlife-logo.png" style="width:585px;height:300px" alt="Smartphones">
-						<h3>SMARTLIFE</h3>	
+						<img class="img-responsive" src="../img/tvsmartliving.jpg" style="width:585px;height:300px" alt="Smartphones">
+						<h3>TV & SMARTLIFE</h3>	
 					</div> 
+				</a>
+			</td>
+		</table>
+		<table align="center">
+			<td> 
+				<a href="#">
+					<div class="outlet" align="center">
+						<img src="../img/outlet.jpg"
+							  style="width:1185px;height:300px" alt="Outlet" class="img-responsive"/>
+						<h3>OUTLET</h3>
+					</div>
 				</a>
 			</td>
 		</table>
 
 		<br>
 		<br>
-		<div align="center" class="highlights">
-			<img src="../img/Highlights.jpg"
-				  style="width:400px;height:100px" alt="highlights" class="img-responsive">
+		<div align="center" class="promotion">
+			<img src="../img/promotions.jpg"
+				  style="width:400px;height:100px" alt="Promotions" class="img-responsive">
 		</div>
 
 		<!-- Load footer -->
@@ -117,7 +130,7 @@
 				</li>
 				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
 				</li>
-				<li><a href="infoRequest.html" class="text-request-info">Request Info</a></li>
+				<li><a href="infoRequest." class="text-request-info">Request Info</a></li>
 				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 			</ul>
 		</footer>	

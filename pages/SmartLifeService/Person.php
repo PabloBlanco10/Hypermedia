@@ -30,27 +30,27 @@
 
 	<!-- Load header -->
 	<div class="header">	
-		<figure><a href="../index.html"><img id="logo" src="../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+		<figure><a href="../index.php"><img id="logo" src="../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
 
 		<div align="center">		
 			<ul class="nav nav-tabs" id="landmarks">
-				<li><figure align="center"><a href="../device.html"><img src="../../img/Devices.jpg" id="device" alt="Device">
+				<li><figure align="center"><a href="../device.php"><img src="../../img/Devices.jpg" id="device" alt="Device">
 					<figcaption>DEVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="../smartLife.html"><img src="../../img/SL.jpg" id="smartlife" alt="Smart Life Service">
+					<figure><a href="../smartLife.php"><img src="../../img/SL.jpg" id="smartlife" alt="Smart Life Service">
 						<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="../assistanceService.html"><img src="../../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
+					<figure><a href="../assistanceService.php"><img src="../../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
 						<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
 				</li>
 
 				<div class="container">
-					<a href="../WhoWeAre.html"><div class="topright">WHO WE ARE</div></a>
-					<a href="../MyTim.html"><div class="bottomright">MY TIM</div></a>
+					<a href="../WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
+					<a href="../MyTim.php"><div class="bottomright">MY TIM</div></a>
 				</div>
 
 			</ul>
@@ -59,9 +59,9 @@
 
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
-		<a href="../index.html" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
-		<a href="../smartLife.html" class="btn btn-default">SMART LIFE SERVICE</a>
-		<a href="Person.html" class="btn btn-default">PERSON</a>
+		<a href="../index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
+		<a href="../smartLife.php" class="btn btn-default">SMART LIFE SERVICE</a>
+		<a href="Person.php" class="btn btn-default">PERSON</a>
 	</div>
 
 
@@ -70,10 +70,10 @@
 		<!-- SubMenu -->
 		<br>
 		<ul class="pagination">
-			<li><a href="TV-Enterteiment.html">TV & ENTERTEIMENT</a></li>
-			<li><a href="Health.html">HEALTH</a></li>
-			<li><a href="Home.html">HOME</a></li>
-			<li class="active"><a href="Person.html">PERSON</a></li>
+			<li><a href="TV-Enterteiment.php">TV & ENTERTEIMENT</a></li>
+			<li><a href="Health.php">HEALTH</a></li>
+			<li><a href="Home.php">HOME</a></li>
+			<li class="active"><a href="Person.php">PERSON</a></li>
 		</ul>
 
 
@@ -145,7 +145,7 @@
 				</li>
 				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
 				</li>
-				<li><a href="../infoRequest.html" class="text-request-info">Request Info</a></li>
+				<li><a href="../infoRequest.php" class="text-request-info">Request Info</a></li>
 				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 			</ul>
 		</footer>	
