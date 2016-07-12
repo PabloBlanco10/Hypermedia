@@ -92,7 +92,7 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('12');
+						$array = getDevice('1');
 						?>
 						<img class="img-responsive" src="../../Db/getImage.php?id=12" style="width:275px;height:200px" alt="WerHome" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
@@ -103,7 +103,7 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('13');
+						$array = getDevice('2');
 						?>
 						<img class="img-responsive" src="../../Db/getImage.php?id=13" style="width:275px;height:200px" alt="LivingColours" align="center">
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
@@ -115,7 +115,7 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('14');
+						$array = getDevice('3');
 						?>
 						<img class="img-responsive" src="../../Db/getImage.php?id=14" style="width:275px;height:200px" alt="Repeater" align="center">
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
@@ -127,7 +127,7 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('15');
+						$array = getDevice('4');
 						?>
 						<img class="img-responsive" src="../../Db/getImage.php?id=15" style="width:275px;height:200px" alt="VideoCamera" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
