@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.1.7
+-- version 4.2.11
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Jul 10, 2016 at 11:07 PM
--- Server version: 5.6.29-log
--- PHP Version: 5.3.10
+-- Servidor: localhost
+-- Tiempo de generación: 12-07-2016 a las 10:53:41
+-- Versión del servidor: 5.6.21
+-- Versión de PHP: 5.6.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,41 +17,39 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `my_hyp43tim`
+-- Base de datos: `my_hyp43tim`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `AssistanceService`
+-- Estructura de tabla para la tabla `AssistanceService`
 --
 
 CREATE TABLE IF NOT EXISTS `AssistanceService` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
+`ID` int(11) NOT NULL,
   `Name` varchar(50) NOT NULL,
   `Characteristics` varchar(1000) DEFAULT NULL,
-  `Details` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=MyISAM DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+  `Details` varchar(1000) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Device`
+-- Estructura de tabla para la tabla `Device`
 --
 
 CREATE TABLE IF NOT EXISTS `Device` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
+`ID` int(11) NOT NULL,
   `Name` varchar(50) NOT NULL,
   `Price` float NOT NULL,
   `Image` longblob NOT NULL,
   `Characteristics` varchar(1000) DEFAULT NULL,
-  `Details` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=12 ;
+  `Details` varchar(1000) DEFAULT NULL
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `Device`
+-- Volcado de datos para la tabla `Device`
 --
 
 INSERT INTO `Device` (`ID`, `Name`, `Price`, `Image`, `Characteristics`, `Details`) VALUES
@@ -80,22 +78,21 @@ INSERT INTO `Device` (`ID`, `Name`, `Price`, `Image`, `Characteristics`, `Detail
 -- --------------------------------------------------------
 
 --
--- Table structure for table `SmartLifeService`
+-- Estructura de tabla para la tabla `SmartLifeService`
 --
 
 CREATE TABLE IF NOT EXISTS `SmartLifeService` (
-  `ID` int(11) NOT NULL AUTO_INCREMENT,
+`ID` int(11) NOT NULL,
   `Name` varchar(50) NOT NULL,
   `Price` float DEFAULT NULL,
   `Image` longblob NOT NULL,
   `Characteristics` varchar(1000) DEFAULT NULL,
   `Details` varchar(1000) DEFAULT NULL,
-  `HowToUse` varchar(1000) DEFAULT NULL,
-  PRIMARY KEY (`ID`)
-) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=16 ;
+  `HowToUse` varchar(1000) DEFAULT NULL
+) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `SmartLifeService`
+-- Volcado de datos para la tabla `SmartLifeService`
 --
 
 INSERT INTO `SmartLifeService` (`ID`, `Name`, `Price`, `Image`, `Characteristics`, `Details`, `HowToUse`) VALUES
@@ -132,7 +129,7 @@ INSERT INTO `SmartLifeService` (`ID`, `Name`, `Price`, `Image`, `Characteristics
 -- --------------------------------------------------------
 
 --
--- Table structure for table `WhoWeAre`
+-- Estructura de tabla para la tabla `WhoWeAre`
 --
 
 CREATE TABLE IF NOT EXISTS `WhoWeAre` (
@@ -142,12 +139,53 @@ CREATE TABLE IF NOT EXISTS `WhoWeAre` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `WhoWeAre`
+-- Volcado de datos para la tabla `WhoWeAre`
 --
 
 INSERT INTO `WhoWeAre` (`History`, `Presentation`, `Awards`) VALUES
 ('From birth TIM emerges as a brand with a young and modern office and, in line with an effervescent advertising, it immediately established itself as the brand of freedom, the aspirational dream but also the planning and friendship. From its inception, the brand has gradually evolved, updating its visual identity, in a fertile dynamic between renewal and protection of its equity view.', 'To evolve means to improve to be able to respond to new challenges.\r\nTo accommodate the future and be a part of TIM is also renewed in the brand.\r\nSince its inception, more than 20 years ago, its logo was a sign of modernity and dynamism: a promise of projects and new horizons. Today continues to be a symbol of change, combining the expertise of two realities: The trigram red Telecom Italy, the intense blue of the TIM brand and a T to unite these two worlds.\r\nThe synthesis of a great legacy and a strong orientation to the future.\r\nThe result is simple and instant icon: evolved, evolved for times.', 'We’re working hard to make our network faster, smarter and stronger. And we’re proud to announce we won Best Network Coverage in the uSwitch Mobile Awards 2016, for the second year running.\r\n \r\nBut the work doesn’t end here. We’ll continue to invest in and upgrade our 2G and 3G networks. And we’re bringing 4G to even more places, as part of our five-year £3bn network modernisation programme. In fact, we’re aiming to provide indoor coverage for 98% of the population by the end of 2017');
 
+--
+-- Índices para tablas volcadas
+--
+
+--
+-- Indices de la tabla `AssistanceService`
+--
+ALTER TABLE `AssistanceService`
+ ADD PRIMARY KEY (`ID`);
+
+--
+-- Indices de la tabla `Device`
+--
+ALTER TABLE `Device`
+ ADD PRIMARY KEY (`ID`);
+
+--
+-- Indices de la tabla `SmartLifeService`
+--
+ALTER TABLE `SmartLifeService`
+ ADD PRIMARY KEY (`ID`);
+
+--
+-- AUTO_INCREMENT de las tablas volcadas
+--
+
+--
+-- AUTO_INCREMENT de la tabla `AssistanceService`
+--
+ALTER TABLE `AssistanceService`
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT de la tabla `Device`
+--
+ALTER TABLE `Device`
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=12;
+--
+-- AUTO_INCREMENT de la tabla `SmartLifeService`
+--
+ALTER TABLE `SmartLifeService`
+MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=16;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -95,7 +95,7 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('5');
+						$array = getDevice('2');
 						?>
 						<img class="img-responsive" src="../../Db/getImage.php?id=5" style="width:250px;height:200px" alt="SamsungGearS2" align="center">
 						<figcaption class="textFigure">
@@ -111,7 +111,7 @@
 						$array = array();
 						$array = getDevice('6');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=6" style="width:250px;height:200px" alt="Loop" align="center">
+						<img class="img-responsive" src="../../Db/getImage.php?id=1" style="width:250px;height:200px" alt="Loop" align="center">
 						<figcaption class="textFigure">
 							<?php echo $array[0]; ?>
 						</figcaption>
