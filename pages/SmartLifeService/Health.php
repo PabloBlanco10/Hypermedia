@@ -94,9 +94,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('2');
+						$array = getSmartLifeService('5');
 						?>
-						<img class="img-responsive" src="../../php/getImageDevice.php?id=1" style="width:250px;height:200px" alt="SamsungGearS2" align="center">
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=5" style="width:250px;height:200px" alt="SamsungGearS2" align="center">
 						<figcaption class="textFigure">
 							<?php echo $array[0]; ?>
 						</figcaption>
@@ -108,9 +108,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('1');
+						$array = getSmartLifeService('6');
 						?>
-						<img class="img-responsive" src="../../php/getImageDevice.php?id=2" style="width:250px;height:200px" alt="Loop" align="center">
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=6" style="width:250px;height:200px" alt="Loop" align="center">
 						<figcaption class="textFigure">
 							<?php echo $array[0]; ?>
 						</figcaption>
@@ -122,9 +122,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('7');
+						$array = getSmartLifeService('7');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=7" style="width:250px;height:200px" alt="GalaxyGearFit" align="center">
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=7" style="width:250px;height:200px" alt="GalaxyGearFit" align="center">
 						<figcaption class="textFigure">
 							<?php echo $array[0]; ?>
 						</figcaption>
@@ -133,9 +133,15 @@
 			</td>
 			<td> 
 				<a href="#">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('8');
+					?>
 					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/Smartband%20FE.jpg" style="width:250px;height:200px" alt="Smartband" align="center">
-						<figcaption class="textFigure">Smartband FE</figcaption>
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=8" style="width:250px;height:200px" alt="Smartband" align="center">
+						<figcaption class="textFigure">
+							<?php echo $array[0]; ?>
+						</figcaption>
 					</div> 
 				</a>
 			</td>

@@ -92,9 +92,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('1');
+						$array = getSmartLifeService('12');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=12" style="width:275px;height:200px" alt="WerHome" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=12" style="width:275px;height:200px" alt="WerHome" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
 			</td>
@@ -103,9 +103,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('2');
+						$array = getSmartLifeService('13');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=13" style="width:275px;height:200px" alt="LivingColours" align="center">
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=13" style="width:275px;height:200px" alt="LivingColours" align="center">
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
@@ -115,9 +115,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('3');
+						$array = getSmartLifeService('14');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=14" style="width:275px;height:200px" alt="Repeater" align="center">
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=14" style="width:275px;height:200px" alt="Repeater" align="center">
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
@@ -127,9 +127,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('4');
+						$array = getSmartLifeService('15');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=15" style="width:275px;height:200px" alt="VideoCamera" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=15" style="width:275px;height:200px" alt="VideoCamera" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
 			</td>

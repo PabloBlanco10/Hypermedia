@@ -92,9 +92,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('9');
+						$array = getSmartLifeService('9');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=9" style="width:300px;height:200px" alt="TimTag" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=9" style="width:300px;height:200px" alt="TimTag" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
 			</td>
@@ -103,9 +103,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('10');
+						$array = getSmartLifeService('10');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=10" style="width:350px;height:200px" alt="House" align="center">
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=10" style="width:350px;height:200px" alt="House" align="center">
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
@@ -115,9 +115,9 @@
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
-						$array = getDevice('11');
+						$array = getSmartLifeService('11');
 						?>
-						<img class="img-responsive" src="../../Db/getImage.php?id=11" style="width:300px;height:200px" alt="GalaxyGearFit" align="center">
+						<img class="img-responsive" src="../../php/getImageSmart.php?id=11" style="width:300px;height:200px" alt="GalaxyGearFit" align="center">
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>

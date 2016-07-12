@@ -13,7 +13,7 @@ mysql_select_db($database, $db) or die("Unable to connect with the DataBase");
 
 if (isset($_GET['id'])){
 	$id = mysql_real_escape_string($_GET['id']);
-	$query = mysql_query("SELECT image FROM SmarLifeService WHERE ID='$id'");
+	$query = mysql_query("SELECT image FROM SmartLifeService WHERE ID='$id'");
 	while($row = mysql_fetch_assoc($query)){
 		$imageData = $row ["image"];
 	}
