@@ -1,4 +1,4 @@
-<!-- Smart Life - Health - Device -->
+<!-- Description Device -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -24,6 +24,8 @@
 		<link rel="stylesheet" type="text/css" href="../../../css/device.css">
 		<link rel="stylesheet" type="text/css" href="../../../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../../../css/styleFooter.css">
+
+		<?php require_once '../../../php/ConnectionsDB.php'; ?>
 	</head>
 
 
@@ -56,13 +58,6 @@
 		</div>
 	</div>
 
-	<div style="top: 133px; left: 517px; width: 350px; position: absolute;" class="s2" id="comp-ihj8exor" data-reactid=".0.$SITE_ROOT.$desktop_siteRoot.$PAGES_CONTAINER.1.1.$SITE_PAGES.$c1dmp.1.$comp-ihj99ar5.1.$mediaiqjc8x132/=1$mediaiqjc8x132.1.$comp-ihj8exor"><h5 class="font_5"><span style="letter-spacing:0.07em">SERVICIOS</span></h5>
-
-		<h6 class="font_6" style="line-height:1.5em">&nbsp;</h6>
-
-		<p class="font_7">PÃ¡rrafo. Haz clic aquÃ­ para agregar tu propio texto y editar. Es fÃ¡cil. Haz clic en Editar Texto o doble clic aquÃ­ para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber mÃ¡s sobre ti.</p>
-	</div>
-
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
 		<a href="../../index.html" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
@@ -83,28 +78,74 @@
 			<li><a href="Person.html">PERSON</a></li>
 		</ul>
 
-
+		<?php
+		$array = array();
+		$array = getSmartLifeService('9');
+		?>
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
-				<div class="textDevice"><p> IPhone 6S PLUS </p></div>
-
+				<div class="textDevice"><p><?php echo $array[0]; ?></p></div>
 
 				<table align="center">
-					<td> 		
-						<a href="#">
-							<div class="devicePhoto">
-								<img class="img-noborder" src="../../../img/6plus.jpg" style="width:300px;height:250px" alt="Smartphones" align="center">
-							</div>
-						</a> 
+					<td> 
+						<div class="Device" align="center">
+							<img class="img-responsive" src="../../../php/getImageSmart.php?id=9" style="width:330px;height:300px" alt="SamsungGearS2" align="center">
+						</div> 
 					</td>
-					<td class="textDetails">
-						<p> IPhone 6S PLUS </p>
+					<td> 
+						<h1 class="textCharacteristics">Characteristics</h1>
+						<div class="Characteristics" align="left">
+							<ul>
+								<?php echo $array[3]; ?>
+							</ul> 
+						</div> 
 					</td>
 				</table>
 
-				<div class="prizefont"><p>99,90 €</p></div>
+				<table align="center">
+					<td>
+						<div class="textBuy"><p>BUY ME</p></div>
+					</td>
+					<td>
+						<a href=BuyMe.php>
+							<div class="prizefont"><p><?php echo $array[1]; ?> €</p></div>
+						</a>
+					</td>
+				</table>
 
-				<div><p>99,90 €</p></div>
+				<table align="left">
+					<hr>
+					<td>
+						<h1 class="textDetails" align="left">Details</h1>
+						<div class="Details" align="left">
+							<ul>
+								<?php echo $array[4]; ?>
+							</ul> 
+						</div> 	
+					</td>
+				</table>
+
+				<table align="left">
+					<td>
+						<h1 class="textDetails">How To Use it</h1>
+						<div class="Details" align="left">
+							<ul>
+								<?php echo $array[5]; ?>
+							</ul> 
+						</div> 	
+					</td>
+				</table>
+
+				<table align="center">
+					<td>
+						<div class="textBuy"><p>BUY ME</p></div>
+					</td>
+					<td>
+						<a href="BuyMe.php">
+							<div class="prizefont"><p><?php echo $array[1]; ?> €</p></div>
+						</a>
+					</td>
+				</table>
 			</div>
 		</div>
 

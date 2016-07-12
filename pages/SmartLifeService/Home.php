@@ -88,7 +88,7 @@
 
 		<table align="center">
 			<td> 
-				<a href="#">
+				<a href="Health/DeviceSLS.php">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();

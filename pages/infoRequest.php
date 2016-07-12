@@ -59,49 +59,53 @@
 
 	<!-- Body -->
 	<body>
-		<form class="form-horizontal" role="form">
-			<div class="form-group">
-				<div class="control-label col-sm-4" id="infoRequest">
-					<h1>INFO REQUEST</h1>
-				</div>
-			</div>
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<form class="form-horizontal" role="form">
+					<div class="form-group">
+						<div class="control-label col-sm-4" id="infoRequest">
+							<h1>INFO REQUEST</h1>
+						</div>
+					</div>
 
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="name">Name:</label>
-				<div class="col-sm-3">
-					<input type="name" class="form-control" id="name" placeholder="Insert your name...">
-				</div>
-			</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="name">Name:</label>
+						<div class="col-sm-3">
+							<input type="name" class="form-control" id="name" placeholder="Insert your name...">
+						</div>
+					</div>
 
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="email">E-Mail:</label>
-				<div class="col-sm-3">
-					<input type="email" class="form-control" id="email" placeholder="Insert your email...">
-				</div>
-			</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="email">E-Mail:</label>
+						<div class="col-sm-3">
+							<input type="email" class="form-control" id="email" placeholder="Insert your email...">
+						</div>
+					</div>
 
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="phone">Phone:</label>
-				<div class="col-sm-3">
-					<input type="phone" class="form-control" id="phone" placeholder="Insert your phone...">
-				</div>
-			</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="phone">Phone:</label>
+						<div class="col-sm-3">
+							<input type="phone" class="form-control" id="phone" placeholder="Insert your phone...">
+						</div>
+					</div>
 
-			<div class="form-group">
-				<label class="control-label col-sm-2" for="request">Request:</label>
-				<div class="col-sm-7">
-					<textarea class="form-control" rows="10" cols="110" id="request" placeholder="Insert your request..."></textarea>
-				</div>
-			</div>
+					<div class="form-group">
+						<label class="control-label col-sm-2" for="request">Request:</label>
+						<div class="col-sm-7">
+							<textarea class="form-control" rows="10" cols="110" id="request" placeholder="Insert your request..."></textarea>
+						</div>
+					</div>
 
-			<div class="form-group">
-				<div class="col-sm-offset-2 col-sm-10">
-					<a href="index.php" class="btn btn-default">HOME</a>
-					<!-- El boton SEND te lleva a HOME -->
-					<a href="index.php" class="btn btn-default sendButton">SEND</a>
-				</div>
+					<div class="form-group">
+						<div class="col-sm-offset-2 col-sm-10">
+							<a href="index.php" class="btn btn-default">HOME</a>
+							<!-- El boton SEND te lleva a HOME -->
+							<a href="index.php" class="btn btn-default sendButton">SEND</a>
+						</div>
+					</div>
+				</form>
 			</div>
-		</form>
+		</div>
 
 		<!-- Load footer -->
 		<br>
