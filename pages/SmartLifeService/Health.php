@@ -18,12 +18,11 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 		<!-- CSS Pages -->
-		<script src="script.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="stylesheet" type="text/css" href="styleSmartLifeService.css">
-		<link rel="stylesheet" type="text/css" href="styleHeader.css">
-		<link rel="stylesheet" type="text/css" href="styleFooter.css">
-
+		<script src="../../javascript/script.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="../../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../../css/styleSmartLifeService.css">
+		<link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
+		<link rel="stylesheet" type="text/css" href="../../css/styleFooter.css">
 		<?php require_once '../../php/ConnectionsDB.php'; ?>
 	</head>
 
