@@ -85,7 +85,7 @@
 
 		<table align="center">
 			<td> 
-				<a href="#">
+				<a href="../pages/Devices/modem.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/Networking%20(1).jpg" style="width:585px;height:300px" alt="Smartphones">
 						<h3>MODEM & NETWORKING</h3>	
