@@ -72,7 +72,7 @@
 		<!-- SubMenu -->
 		<br>
 		<ul class="pagination" >
-			<li class="active"><a href="smartphone.php">SMARTPHONE
+			<li class="active"><a href="../smartphone.php">SMARTPHONE
 				</a></li>
 			<li><a href="../tablet.php">TABLET</a></li>
 			<li><a href="../modem.php">MODEM & NETWORKING</a></li>
