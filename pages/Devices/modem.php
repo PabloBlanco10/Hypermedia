@@ -23,6 +23,8 @@
 		<link rel="stylesheet" type="text/css" href="../../css/styleDevice.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleFooter.css">
+		<?php require_once '../../php/ConnectionsDB.php'; ?>
+
 	</head>
 
 
@@ -76,26 +78,27 @@
 			<li><a href="outlet.php">OUTLET</a></li>
 
 		</ul>
-		<br>
-		<br>
-		<br>
 
 		<div class="panel panel-default">
 			<div class="panel-body">
 
 				<div class="imagenWithButton" align="left">
-					<img class="img-noborder" src="../../img/wifi4g.png" style="width:300px;height:250px" alt="Smartphones">
+					<?php
+					$array = array();
+					$array = getDevice('12');
+					?>
+					<img class="img-noborder" src="../../php/getImageDevice.php?id=12" style="width:300px;height:250px" alt="TimModem">
 				</div>
 
 				<div class="itemfont" ><p>
-					TIMModem Wi-Fi 4GPLUS</p>
+					<?php echo $array[0] ?></p>
 				</div>
 				<div class="prizefont" ><p>
-					99,90 €</p>
+					<?php echo $array[1]; ?> € </p>
 				</div>
 				<a href="#">
 					<div class="imagenDetails" align="right">
-						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Smartphones">
+						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
 					</div>
 				</a>
@@ -104,18 +107,22 @@
 			<div class="panel-body">
 
 				<div class="imagenWithButton" align="left">
-					<img class="img-noborder" src="../../img/fibra.png" style="width:300px;height:250px" alt="Smartphones">
+					<?php
+					$array = array();
+					$array = getDevice('13');
+					?>
+					<img class="img-noborder" src="../../php/getImageDevice.php?id=13" style="width:300px;height:250px" alt="Fibra">
 				</div>
 
 				<div class="itemfont" ><p>
-					TIMModem Fibra</p>
+					<?php echo $array[0] ?></p>
 				</div>
 				<div class="prizefont" ><p>
-					99,90 €</p>
+					<?php echo $array[1]; ?> € </p>
 				</div>
 				<a href="#">
 					<div class="imagenDetails" align="right">
-						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Smartphones">
+						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
 					</div>
 				</a>
@@ -124,18 +131,22 @@
 			<div class="panel-body">
 
 				<div class="imagenWithButton" align="left">
-					<img class="img-noborder" src="../../img/repeater.png" style="width:300px;height:250px" alt="Smartphones">
+					<?php
+					$array = array();
+					$array = getDevice('14');
+					?>
+					<img class="img-noborder" src="../../php/getImageDevice.php?id=14" style="width:300px;height:250px" alt="Repeater">
 				</div>
 
 				<div class="itemfont" ><p>
-					ZyXELRepeater Wi-Fi AC750</p>
+					<?php echo $array[0] ?></p>
 				</div>
 				<div class="prizefont" ><p>
-					49,90 €</p>
+					<?php echo $array[1]; ?> € </p>
 				</div>
 				<a href="#">
 					<div class="imagenDetails" align="right">
-						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Smartphones">
+						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
 					</div>
 				</a>
@@ -144,18 +155,22 @@
 			<div class="panel-body">
 
 				<div class="imagenWithButton" align="left">
-					<img class="img-noborder" src="../../img/powerline.png" style="width:300px;height:250px" alt="Smartphones">
+					<?php
+					$array = array();
+					$array = getDevice('15');
+					?>
+					<img class="img-noborder" src="../../php/getImageDevice.php?id=15" style="width:300px;height:250px" alt="Powerline">
 				</div>
 
 				<div class="itemfont" ><p>
-					TIMPowerline Adapter</p>
+					<?php echo $array[0] ?></p>
 				</div>
 				<div class="prizefont" ><p>
-					49 €</p>
+					<?php echo $array[1]; ?> € </p>
 				</div>
 				<a href="#">
 					<div class="imagenDetails" align="right">
-						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Smartphones">
+						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
 					</div>
 				</a>
@@ -187,7 +202,7 @@
 </html>
 
 <script>
-function myFunction() {
-   	
-}
+	function myFunction() {
+
+	}
 </script>

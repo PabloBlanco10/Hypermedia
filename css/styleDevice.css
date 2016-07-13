@@ -13,12 +13,12 @@ figcaption.textFigure{
 	margin-right: 30px;
 	margin-left: 30px;
 	background-color: white;
+	margin-top:4%;
 }
 .imagenDetails{
 	position:absolute;
 	margin-top: -150px; 
 	right: 13%;
-
 }
 
 .img-noborder{
