@@ -93,7 +93,7 @@
 				</a>
 			</td>
 			<td>
-				<a href="#">
+				<a href="../pages/Devices/tv.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/tvsmartliving.jpg" style="width:585px;height:300px" alt="Smartphones">
 						<h3>TV & SMARTLIFE</h3>	
@@ -103,7 +103,7 @@
 		</table>
 		<table align="center">
 			<td> 
-				<a href="#">
+				<a href="../pages/Devices/Outlet.php">
 					<div class="outlet" align="center">
 						<img src="../img/outlet.jpg"
 							  style="width:1185px;height:300px" alt="Outlet" class="img-responsive"/>

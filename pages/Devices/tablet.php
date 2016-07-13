@@ -82,7 +82,7 @@
 		
 		<table align="center">
 			<td> 		
-				<a href="#">
+				<a href="../Devices/Tablet/ipad.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../../img/ipads.png" style="width:585px;height:400px" alt="Smartphones">
 						<h3>iPads</h3>
