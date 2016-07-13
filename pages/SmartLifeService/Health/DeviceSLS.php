@@ -31,39 +31,44 @@
 
 	<!-- Load header -->
 	<div class="header">	
-		<figure><a href="../../index.html"><img id="logo" src="../../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+		<figure><a href="../../index.php"><img id="logo" src="../../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
 
 		<div align="center">		
 			<ul class="nav nav-tabs" id="landmarks">
-				<li><figure align="center"><a href="../../device.html"><img src="../../../img/Devices.jpg" id="device" alt="Device">
+				<li><figure align="center"><a href="../../device.php"><img src="../../../img/Devices.jpg" id="device" alt="Device">
 					<figcaption>DEVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="../../smartLife.html"><img src="../../../img/SL.jpg" id="smartlife" alt="Smart Life Service">
+					<figure><a href="../../smartLife.php"><img src="../../../img/SL.jpg" id="smartlife" alt="Smart Life Service">
 						<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="../../assistanceService.html"><img src="../../../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
+					<figure><a href="../../assistanceService.php"><img src="../../../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
 						<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
 				</li>
 
 				<div class="container">
-					<a href="../../WhoWeAre.html"><div class="topright">WHO WE ARE</div></a>
-					<a href="../../MyTim.html"><div class="bottomright">MY TIM</div></a>
+					<a href="../../WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
+					<a href="../../MyTim.php"><div class="bottomright">MY TIM</div></a>
 				</div>
 
 			</ul>
 		</div>
 	</div>
 
+	<?php
+	$array = array();
+	$array = getSmartLifeService('9');
+	?>
+	
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
-		<a href="../../index.html" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
-		<a href="../../smartLife.html" class="btn btn-default">SMART LIFE SERVICE</a>
-		<a href="TV-Enterteiment.html" class="btn btn-default">TV & ENTERTEIMENT</a>
-		<a href="TV-Enterteiment.html" class="btn btn-default">TV & ENTERTEIMENT</a>
+		<a href="../../index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
+		<a href="../../smartLife.php" class="btn btn-default">SMART LIFE SERVICE</a>
+		<a href="../<?php echo $array[6]; ?>.php" class="btn btn-default"><?php echo $array[6]; ?></a>
+		<a href="#" class="btn btn-default"><?php echo $array[0]; ?></a>
 	</div>
 
 
@@ -72,16 +77,29 @@
 		<!-- SubMenu -->
 		<br>
 		<ul class="pagination">
-			<li class="active"><a href="TV-Enterteiment.html">TV & ENTERTEIMENT</a></li>
-			<li><a href="Health.html">HEALTH</a></li>
-			<li><a href="Home.html">HOME</a></li>
-			<li><a href="Person.html">PERSON</a></li>
+			<?php if($array[6] == 'TV-Enterteiment') : ?>
+			<li class="active"><a href="../TV-Enterteiment.php">TV & ENTERTEIMENT</a></li>
+			<li><a href="../Health.php">HEALTH</a></li>
+			<li><a href="../Home.php">HOME</a></li>
+			<li><a href="../Person.php">PERSON</a></li>
+			<?php elseif($array[6] == 'Health') : ?>
+			<li><a href="../TV-Enterteiment.php">TV & ENTERTEIMENT</a></li>
+			<li class="active"><a href="../Health.php">HEALTH</a></li>
+			<li><a href="../Home.php">HOME</a></li>
+			<li><a href="../Person.php">PERSON</a></li>
+			<?php elseif($array[6] == 'Home') : ?>
+			<li><a href="../TV-Enterteiment.php">TV & ENTERTEIMENT</a></li>
+			<li><a href="../Health.php">HEALTH</a></li>
+			<li class="active"><a href="../Home.php">HOME</a></li>
+			<li><a href="../Person.php">PERSON</a></li>
+			<?php else : ?>
+			<li><a href="../TV-Enterteiment.php">TV & ENTERTEIMENT</a></li>
+			<li><a href="../Health.php">HEALTH</a></li>
+			<li><a href="../Home.php">HOME</a></li>
+			<li class="active"><a href="../Person.php">PERSON</a></li>
+			<?php endif; ?>
 		</ul>
 
-		<?php
-		$array = array();
-		$array = getSmartLifeService('9');
-		?>
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
 				<div class="textDevice"><p><?php echo $array[0]; ?></p></div>
@@ -92,6 +110,7 @@
 							<img class="img-responsive" src="../../../php/getImageSmart.php?id=9" style="width:330px;height:300px" alt="SamsungGearS2" align="center">
 						</div> 
 					</td>
+					<?php if($array[3] != null) : ?>
 					<td> 
 						<h1 class="textCharacteristics">Characteristics</h1>
 						<div class="Characteristics" align="left">
@@ -100,8 +119,10 @@
 							</ul> 
 						</div> 
 					</td>
+					<?php endif; ?>
 				</table>
 
+				<?php if($array[1] != null) : ?>
 				<table align="center">
 					<td>
 						<div class="textBuy"><p>BUY ME</p></div>
@@ -112,7 +133,9 @@
 						</a>
 					</td>
 				</table>
+				<?php endif; ?>
 
+				<?php if($array[4] != null) : ?>
 				<table align="left">
 					<hr>
 					<td>
@@ -124,7 +147,9 @@
 						</div> 	
 					</td>
 				</table>
+				<?php endif; ?>
 
+				<?php if($array[5] != null) : ?>
 				<table align="left">
 					<td>
 						<h1 class="textDetails">How To Use it</h1>
@@ -135,7 +160,9 @@
 						</div> 	
 					</td>
 				</table>
+				<?php endif; ?>
 
+				<?php if($array[1] != null) : ?>
 				<table align="center">
 					<td>
 						<div class="textBuy"><p>BUY ME</p></div>
@@ -146,6 +173,7 @@
 						</a>
 					</td>
 				</table>
+				<?php endif; ?>
 			</div>
 		</div>
 
@@ -160,7 +188,7 @@
 				</li>
 				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
 				</li>
-				<li><a href="../infoRequest.html" class="text-request-info">Request Info</a></li>
+				<li><a href="../../infoRequest.php" class="text-request-info">Request Info</a></li>
 				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 			</ul>
 		</footer>	
