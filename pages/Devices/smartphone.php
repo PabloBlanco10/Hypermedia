@@ -90,7 +90,7 @@
 				</a> 
 			</td>
 			<td>
-				<a href="#">
+				<a href="Smartphone/samsung.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../../img/samsung.png" style="width:585px;height:300px" alt="Smartphones">
 						<h3>Samsung</h3>	

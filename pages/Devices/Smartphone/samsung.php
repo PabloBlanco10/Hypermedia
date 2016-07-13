@@ -1,4 +1,4 @@
-<!-- DEVICES - SMARTPHONE - IPHONE -->
+<!-- DEVICES - SMARTPHONE - SAMSUNG -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -63,7 +63,7 @@
 		<a href="../../index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
 		<a href="../../device.php" class="btn btn-default">DEVICE</a>
 		<a href="../smartphone.php" class="btn btn-default">SMARTPHONE</a>
-		<a href="iphone.php" class="btn btn-default">IPHONE</a>
+		<a href="samsung.php" class="btn btn-default">SAMSUNG</a>
 	</div>
 
 
@@ -88,9 +88,9 @@
 				<div class="imagenWithButton" align="left">
 					<?php
 					$array = array();
-					$array = getDevice('1');
+					$array = getDevice('5');
 					?>
-					<img class="img-noborder" src="../../../php/getImageDevice.php?id=1" style="width:350px;height:250px" alt="iPhone">
+					<img class="img-noborder" src="../../../php/getImageDevice.php?id=5" style="width:350px;height:250px" alt="Samsung">
 				</div>
 
 				<div class="itemfont" ><p>
@@ -112,9 +112,9 @@
 				<div class="imagenWithButton" align="left">
 					<?php
 					$array = array();
-					$array = getDevice('2');
+					$array = getDevice('6');
 					?>
-					<img class="img-noborder" src="../../../php/getImageDevice.php?id=2" style="width:350px;height:250px" alt="iPhone">
+					<img class="img-noborder" src="../../../php/getImageDevice.php?id=6" style="width:350px;height:250px" alt="Samsung">
 				</div>
 
 				<div class="itemfont" ><p>
@@ -136,9 +136,9 @@
 				<div class="imagenWithButton" align="left">
 					<?php
 					$array = array();
-					$array = getDevice('3');
+					$array = getDevice('7');
 					?>
-					<img class="img-noborder" src="../../../php/getImageDevice.php?id=3" style="width:350px;height:200px" alt="iPhone">
+					<img class="img-noborder" src="../../../php/getImageDevice.php?id=7" style="width:350px;height:200px" alt="Samsung">
 				</div>
 
 				<div class="itemfont" ><p>
@@ -160,9 +160,9 @@
 				<div class="imagenWithButton" align="left">
 					<?php
 					$array = array();
-					$array = getDevice('4');
+					$array = getDevice('8');
 					?>
-					<img class="img-noborder" src="../../../php/getImageDevice.php?id=4" style="width:350px;height:200px" alt="iPhone">
+					<img class="img-noborder" src="../../../php/getImageDevice.php?id=8" style="width:350px;height:200px" alt="Samsung">
 				</div>
 
 				<div class="itemfont" ><p>
