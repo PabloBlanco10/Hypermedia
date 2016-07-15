@@ -86,3 +86,16 @@ div.textLeft {
 	font-size: 160%;	
 	margin-bottom: 20px;
 }
+
+
+.textFurtherDetails{
+	width: 300px;
+	text-align: center; 
+	color:black;
+	background-color:cadetblue;
+	padding: 10px 20px;
+	border-style: solid;
+	font-family: monospace;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}

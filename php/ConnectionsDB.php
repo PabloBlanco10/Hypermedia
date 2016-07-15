@@ -49,6 +49,7 @@ function getSmartLifeService($id){
 		$arr[4] = $fila['Details'];
 		$arr[5] = $fila['HowToUse'];
 		$arr[6] = $fila['Class'];
+		$arr[7] = $fila['FurtherDetails'];
 	}
 	return $arr;
 }

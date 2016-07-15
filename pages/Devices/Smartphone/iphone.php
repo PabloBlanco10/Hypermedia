@@ -114,7 +114,7 @@
 					$array = array();
 					$array = getDevice('2');
 					?>
-					<img class="img-noborder" src="../../../php/getImageDevice.php?id=2" style="width:350px;height:250px" alt="iPhone">
+					<img class="img-noborder" src="../../../php/getImageDevice.php?id=1" style="width:350px;height:250px" alt="iPhone">
 				</div>
 
 				<div class="itemfont" ><p>

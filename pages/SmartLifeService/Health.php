@@ -90,7 +90,7 @@
 
 		<table align="center">
 			<td> 
-				<a href="#">
+				<a href="Device/GenericDevice.php?id=5">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -104,7 +104,7 @@
 				</a>
 			</td>
 			<td> 
-				<a href="#">
+				<a href="Device/GenericDevice.php?id=6">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -118,7 +118,7 @@
 				</a>
 			</td>
 			<td> 
-				<a href="#">
+				<a href="Device/GenericDevice.php?id=7">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -132,7 +132,7 @@
 				</a>
 			</td>
 			<td> 
-				<a href="#">
+				<a href="Device/GenericDevice.php?id=8">
 					<?php
 					$array = array();
 					$array = getSmartLifeService('8');

@@ -77,7 +77,7 @@
 		
 		<table align="center" style="margin-top:50px">
 			<td> 		
-				<a href="#">
+				<a href="TV/TV.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../../img/tv-entertainment_0.jpg" style="width:1300px;height:500px" alt="TvEnterteiment" align="center">
 						<h1 class="blueText"><br>Unlimited FUN</h1>

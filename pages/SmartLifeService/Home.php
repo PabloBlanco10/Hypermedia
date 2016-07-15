@@ -88,7 +88,7 @@
 
 		<table align="center">
 			<td> 
-				<a href="Health/DeviceSLS.php">
+				<a href="Device/GenericDevice.php?id=9">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -99,7 +99,7 @@
 				</a>
 			</td>
 			<td> 
-				<a href="#">
+				<a href="Device/GenericDevice.php?id=10">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -111,7 +111,7 @@
 				</a>
 			</td>
 			<td> 
-				<a href="#">
+				<a href="Device/GenericDevice.php?id=11">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
