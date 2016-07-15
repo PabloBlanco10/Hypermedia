@@ -20,38 +20,38 @@
 
 		<!-- Load Header and Footer -->
 		<script src="../../javascript/script.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="../../../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../../../css/styleHeader.css">
-		<link rel="stylesheet" type="text/css" href="../../../css/styleFooter.css">
-		<link rel="stylesheet" type="text/css" href="../../../css/device.css">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleHeader.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
+		<link rel="stylesheet" type="text/css" href="../css/device.css">
 
-		<?php require_once '../../../php/ConnectionsDB.php'; ?>
+		<?php require_once '../php/ConnectionsDB.php'; ?>
 	</head>
 
 
 	<!-- Load header -->
 	<div class="header">	
-		<figure><a href="../../index.php"><img id="logo" src="../../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+		<figure><a href="index.php"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
 
 		<div align="center">		
 			<ul class="nav nav-tabs" id="landmarks">
-				<li><figure align="center"><a href="../../device.php"><img src="../../../img/Devices.jpg" id="device" alt="Device">
+				<li><figure align="center"><a href="device.php"><img src="../img/Devices.jpg" id="device" alt="Device">
 					<figcaption>DEVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="../../smartLife.php"><img src="../../../img/SL.jpg" id="smartlife" alt="Smart Life Service">
+					<figure><a href="smartLife.php"><img src="../img/SL.jpg" id="smartlife" alt="Smart Life Service">
 						<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
 				</li>
 
 				<li>
-					<figure><a href="../../assistanceService.php"><img src="../../../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
+					<figure><a href="assistanceService.php"><img src="../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
 						<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
 				</li>
 
 				<div class="container">
-					<a href="../../iWhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
-					<a href="../../iMyTim.php"><div class="bottomright">MY TIM</div></a>
+					<a href="WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
+					<a href="MyTim.php"><div class="bottomright">MY TIM</div></a>
 				</div>
 
 			</ul>
@@ -67,7 +67,7 @@
 				<form class="form-horizontal" role="form">
 					<div class="form-group">
 						<div class="control-label col-sm-10" id="infoRequest">
-							<h1>WE ARE GLAD THAT YOU DECIDE TO BUT IT</h1>
+							<h1>WE ARE GLAD THAT YOU DECIDE TO BUY IT</h1>
 						</div>
 					</div>
 
@@ -158,7 +158,7 @@
 						<div class="col-sm-offset-2 col-sm-10">
 							<a href="../../index.php" class="btn btn-default">BACK</a>
 							<!-- El boton SEND te lleva a HOME -->
-							<a href="../../index.php" class="btn btn-default prizefont">BUY IT</a>
+							<a href="index.php" class="btn btn-default prizefont">BUY IT</a>
 						</div>
 					</div>
 				</form>
@@ -171,7 +171,7 @@
 		<footer class="footer">
 			<ul class="list-unstyled">
 				<li><p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-					<img src="../../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+					<img src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
 				</li>
 				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
 				</li>

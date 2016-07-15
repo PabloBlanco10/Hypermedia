@@ -81,7 +81,6 @@
 
 		<div class="panel panel-default">
 			<div class="panel-body">
-
 				<div class="imagenWithButton" align="left">
 					<?php
 					$array = array();
@@ -93,10 +92,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="showDevice.php?id=12">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
@@ -117,10 +116,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="showDevice.php?id=13">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
@@ -141,10 +140,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="showDevice.php?id=14">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
@@ -165,10 +164,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="showDevice.php?id=15">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 

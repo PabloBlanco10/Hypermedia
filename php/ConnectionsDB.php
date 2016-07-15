@@ -21,6 +21,7 @@ function getDevice($id){
 		$arr[2] = $fila['Image'];
 		$arr[3] = $fila['Characteristics'];
 		$arr[4] = $fila['Details'];
+		$arr[5] = $fila['Class'];
 	}
 	return $arr;
 }

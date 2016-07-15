@@ -26,6 +26,10 @@ figcaption.textFigure{
 	margin-left: 50px;
 }
 
+.img-dev{
+	border-style: none;
+}
+
 .panel-body{
 	border-style: solid;
 	margin-top: -1px;
@@ -41,7 +45,7 @@ div.itemfont{
 	font-size: 30px;
 }
 
-div.prizefont{
+div.fontprize{
 	font-family: monospace;
 	position: absolute;
 	margin-top: -100px;
@@ -120,3 +124,4 @@ div.textLeft {
 	font-size: 160%;	
 	margin-bottom: 20px;
 }
+

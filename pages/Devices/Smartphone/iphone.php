@@ -96,10 +96,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="../showDevice.php?id=1">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
@@ -120,10 +120,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="../showDevice.php?id=2">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
@@ -144,10 +144,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="../showDevice.php?id=3">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
@@ -168,10 +168,10 @@
 				<div class="itemfont" ><p>
 					<?php echo $array[0] ?></p>
 				</div>
-				<div class="prizefont" ><p>
+				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
-				<a href="#">
+				<a href="../showDevice.php?id=4">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../../img/seedetails.png" style="width:175px;height:28px" alt="Details">
 
