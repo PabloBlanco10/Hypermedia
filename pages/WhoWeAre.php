@@ -1,4 +1,4 @@
-<!-- Who We Are Page -->
+<!-- Who We Are Page - History-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -23,6 +23,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
+
+		<?php require_once '../php/ConnectionsDB.php'; ?>
 	</head>
 
 	<!-- Load header -->
@@ -62,11 +64,101 @@
 
 	<!-- Body -->
 	<body>
-		<!-- Por Hacer -->
 		<br>
-		Por hacer
-		<br>
-		
+		<ul class="pagination" align="center">
+			<li class="active"><a href="WhoWeAre.php">HISTORY</a></li>
+			<li><a href="WhoWeArePresentation.php">PRESENTATION</a></li>
+			<li><a href="WhoWeAreAwards.php">AWARDS</a></li>
+		</ul>
+
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<div class="container">
+					<div class="initialText" align="center">A COMPANY WITH HUGE HISTORY </div>
+					<br>
+					<div class="row" align="center">
+						<div class="col-md-7">
+							<?php
+							$array = array();
+							$array = getWhoWeAre('1');
+							?>
+							<img src="../php/getImageWhoWeAre.php?id=1" id="whoWeAre" alt="whoWeAre" class="img-responsive" style="width:275px;height:200px">
+
+						</div>
+						<div class="col-md-3">
+							<h2>LOGO 1995</h2>
+							<div class="row-fluid">
+								<?php echo $array[1]; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+
+				<div class="container">
+					<div class="row" align="center">
+						<div class="col-md-7">
+							<?php
+							$array = array();
+							$array = getWhoWeAre('2');
+							?>
+							<img src="../php/getImageWhoWeAre.php?id=2" id="whoWeAre" alt="whoWeAre" class="img-responsive" style="width:275px;height:200px">
+
+						</div>
+						<div class="col-md-3">
+							<h2>LOGO 1998</h2>
+							<div class="row-fluid">
+								<?php echo $array[1]; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+
+				<div class="container">
+					<div class="row" align="center">
+						<div class="col-md-7">
+							<?php
+							$array = array();
+							$array = getWhoWeAre('3');
+							?>
+							<img src="../php/getImageWhoWeAre.php?id=3" id="whoWeAre" alt="whoWeAre" class="img-responsive" style="width:275px;height:200px">
+
+						</div>
+						<div class="col-md-3">
+							<h2>LOGO 2014</h2>
+							<div class="row-fluid">
+								<?php echo $array[1]; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+				<br>
+				<br>
+
+				<div class="container">
+					<div class="row" align="center">
+						<div class="col-md-7">
+							<?php
+							$array = array();
+							$array = getWhoWeAre('4');
+							?>
+							<img src="../php/getImageWhoWeAre.php?id=4" id="whoWeAre" alt="whoWeAre" class="img-responsive" style="width:275px;height:200px">
+
+						</div>
+						<div class="col-md-3">
+							<h2>LOGO 2016</h2>
+							<div class="row-fluid">
+								<?php echo $array[1]; ?>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!-- Load footer -->
 		<br>
 		<br>

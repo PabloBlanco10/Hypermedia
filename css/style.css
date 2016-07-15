@@ -10,7 +10,7 @@ body{
 	margin-left: 70px;
 	background-color: white;
 }
-	
+
 .row{
 	margin-bottom: 10px;
 	margin-left: 3.5%;
@@ -59,6 +59,38 @@ img{
 	border-style: solid;
 	font-family: monospace;
 	opacity: 0.8;
+}
+
+/** Who We Are **/
+.row-fluid {
+	display: flex;
+}
+
+h2 {
+	margin-top: 0;
+}
+
+.initialText{
+	margin-right: 70px;
+	margin-left: 70px;
+	background-color: white;
+	color: cadetblue;
+	font-size: 35px;
+}
+
+.former{
+	font-size: 16px;
+	background-color: lightblue;
+	color: black;
+	border-style:dotted;
+}
+
+ul.pagination{
+	position: absolute;
+	border-style: solid;
+	margin-left: 35%;
+	margin-bottom: 30px;
+	z-index: 2;
 }
 
 

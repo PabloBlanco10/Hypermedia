@@ -78,3 +78,27 @@ function getAssistanceService($id){
 	return $arr;
 }
 
+function getWhoWeAre($id){
+	/*$username = "hyp43tim";
+	$password = "";
+	$host = "ftp.hyp43tim.altervista.org";
+	$database = "my_hyp43tim";*/
+	$username = "root";
+	$password = "";
+	$host = "localhost";
+	$database = "my_hyp43tim";
+
+	$db = mysql_connect($host, $username, $password) or die("Unable to connect with the DataBase");
+	mysql_select_db($database, $db) or die("Unable to connect with the DataBase"); 
+
+	$consulta = sprintf("SELECT * FROM WhoWeAre where ID = '$id'");
+	$resultado = mysql_query($consulta);
+	$arr = array();
+	if ($fila = mysql_fetch_assoc($resultado)) {
+		$arr[0] = $fila['Image'];
+		$arr[1] = $fila['Text'];
+	}
+	return $arr;
+}
+
+
