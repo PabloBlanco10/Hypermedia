@@ -31,7 +31,7 @@
 
 	<!-- Load header -->
 	<div class="header">	
-		<figure><a href="../../index.phpi"><img id="logo" src="../../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+		<figure><a href="../../index.php"><img id="logo" src="../../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
 
 		<div align="center">		
 			<ul class="nav nav-tabs" id="landmarks">
