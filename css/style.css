@@ -4,10 +4,10 @@ body{
 	background-color: lightgrey;
 }
 
-.panel{
-	margin-top: 50px;
-	margin-right: 70px;
-	margin-left: 70px;
+.panel {
+	margin-top: 1%;
+	margin-right: 3%;
+	margin-left: 3%;
 	background-color: white;
 }
 
@@ -60,6 +60,15 @@ img{
 	font-family: monospace;
 	opacity: 0.8;
 }
+hr {
+	display: block;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 2px;
+}
 
 /** Who We Are **/
 .row-fluid {
@@ -68,6 +77,24 @@ img{
 
 h2 {
 	margin-top: 0;
+}
+
+/** ASSISTANCE SERVICE **/
+.questionsBox {
+	font-size: 18px;
+	margin-top:3%;
+	margin-bottom:3%;
+	border: 3px solid gray;
+}
+
+.buttonAskIt{
+	text-align: center;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: darkblue;
+	border: black 2px solid;
+}
 }
 
 .initialText{

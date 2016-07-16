@@ -64,7 +64,7 @@
 		<!-- Body -->
 		<table align="center">
 			<td> 		
-				<a href="#">
+				<a href="AssistanceService/LineManagement.php"	>
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/bottom_networking.jpg" style="width:585px;height:300px" alt="Smartphones">
 						<h3>LINE MANAGEMENT</h3>
@@ -72,7 +72,7 @@
 				</a> 
 			</td>
 			<td>
-				<a href="#">
+				<a href="AssistanceService/MonitoringCosts.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/tarjeta-credito.jpg" style="width:585px;height:300px" alt="Smartphones">
 						<h3>MONITORING COSTS</h3>	
@@ -83,7 +83,7 @@
 
 		<table align="center">
 			<td> 
-				<a href="#">
+				<a href="AssistanceService/TechnicalSupport.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/tech_support_help.jpg" style="width:585px;height:300px" alt="Smartphones">
 						<h3>TECHNICAL SUPPORT</h3>	
@@ -91,7 +91,7 @@
 				</a>
 			</td>
 			<td>
-				<a href="#">
+				<a href="AssistanceService/SmartLife.php">
 					<div class="imagenWithButton" align="center">
 						<img class="img-responsive" src="../img/smartlife-logo.png" style="width:585px;height:300px" alt="Smartphones">
 						<h3>SMARTLIFE</h3>	

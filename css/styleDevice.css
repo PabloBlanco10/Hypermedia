@@ -9,11 +9,11 @@ figcaption.textFigure{
 	margin-top: 10px;
 }
 
-.panel{
-	margin-right: 30px;
-	margin-left: 30px;
-	background-color: white;
-	margin-top:4%;
+.panel {
+    margin-top: 1%;
+    margin-right: 3%;
+    margin-left: 3%;
+    background-color: white;
 }
 .imagenDetails{
 	position:absolute;
