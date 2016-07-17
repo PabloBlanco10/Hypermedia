@@ -71,7 +71,7 @@
 		<br>
 		<ul class="pagination">
 			<li class="active"><a href="LineManagement.php">LINE MANAGEMENT</a></li>
-			<li><a href="MonitoringCosts.php">COSTS & PAYMENTS</a></li>
+			<li><a href="MonitoringCosts.php">MONITORING COSTS & PAYMENTS</a></li>
 			<li><a href="TechnicalSupport.php">TECHNICAL SUPPORT</a></li>
 			<li><a href="SmartLife.php">SMART LIFE</a></li>
 		</ul>
