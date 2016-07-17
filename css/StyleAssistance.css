@@ -1,0 +1,7 @@
+ul.pagination{
+	position: absolute;
+	border-style: solid;
+	margin-left: 26%;
+	margin-bottom: 30px;
+	z-index: 2;
+}

@@ -23,7 +23,9 @@
 		<link rel="stylesheet" type="text/css" href="../../css/styleSmartLifeService.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleFooter.css">
-		
+		<link rel="stylesheet" type="text/css" href="../../css/StyleAssistance.css">
+
+
 		<?php require_once '../../php/ConnectionsDB.php'; ?>
 	</head>
 
@@ -145,9 +147,9 @@
 							</ul> 
 						</div>
 					</div>
-					
+
 					<hr>
-					
+
 					<div class="row" align="center">
 						<div class="col-sm-8" style="color:darkblue">
 							<h3>YOUR QUESTIONS WAS NOT HERE?</h3>
@@ -156,7 +158,7 @@
 							<a href="../infoRequest.php">ASK IT!</a>
 						</div>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
