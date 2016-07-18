@@ -29,6 +29,9 @@ img{
 	border-color: black;
 }
 
+.img-noborder{
+	border-style: none;
+}
 .imagenWithButton, .outlet { 
 	position: relative; 
 	margin-bottom: 10px;
@@ -120,6 +123,27 @@ ul.pagination{
 	z-index: 2;
 }
 
+.panel-heading{
+	font-size: 30px;
+	text-align: center ;
+		font-family: monospace;
+
+}
+div.itemfont{
+	font-family: monospace;
+	position: absolute;
+	color:black;
+	font-size: 30px;
+	text-align: center;
+}
+div.fontprize{
+	font-family: monospace;
+	position: absolute;
+	margin-top: 5%;
+	margin-left: 7%;
+	color:red;
+	font-size: 30px;
+}
 
 
 /** Info Request **/
