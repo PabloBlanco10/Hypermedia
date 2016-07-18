@@ -9,34 +9,23 @@ ul.pagination{
 
 div.itemfont{
 	font-family: monospace;
-	position: absolute;
-	margin-left: 1%;
-	color:black;
-	font-size: 30px;
-}
-
-div.itemfontSL{
-	font-family: monospace;
-	position: absolute;
-	margin-left: 2%;
+	position: relative;
 	color:black;
 	font-size: 30px;
 }
 
 div.fontprize{
 	font-family: monospace;
-	position: absolute;
-	margin-top: 5%;
-	margin-left: 7%;
+	position: relative;
 	color:red;
 	font-size: 30px;
+	margin-left: 30%;
 	text-decoration: line-through;
 }
 div.fontprizereal{
 	font-family: monospace;
-	position: absolute;
-	margin-top: 10%;
-	margin-left: 7%;
+	position: relative;
+	margin-left: 30%;
 	color:red;
 	font-size: 30px;
 	text-decoration: underline;

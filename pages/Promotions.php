@@ -80,221 +80,236 @@
 
 		<div class="panel panel-primary">
 			<div class="panel-heading">DEVICES</div>
-
 			<div class="panel-body">
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('1');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=1">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-				<table align="center">
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('1');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=1">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('5');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=5">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=5" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('5');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=5">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=5" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('13');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=13">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=13" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('19');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=19">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=19" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('13');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=13">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=13" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-				</table>
+				<div class="col-sm-6" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('19');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=19">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=19" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
+				<div class="col-sm-6" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('7');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=19">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=7" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
+
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 			</div>
 		</div>
 
-
+		<!-- Smart Life Services -->
 
 		<div class="panel panel-primary">
 			<div class="panel-heading">SMART LIFE SERVICES</div>
 
 			<div class="panel-body">
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('8');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=8">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=8" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-				<table align="center">
-					<td> 
-						<?php
-						$array = array();
-						$array = getSmartLifeService('8');
-						?>
-						<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=8">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageSmart.php?id=8" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-						<div class="itemfontSL" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
-					<td> 
-						<?php
-						$array = array();
-						$array = getSmartLifeService('7');
-						?>
-						<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=7">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('7');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=7">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-						<div class="itemfontSL" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
-					<td> 
-						<?php
-						$array = array();
-						$array = getSmartLifeService('14');
-						?>
-						<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=14">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageSmart.php?id=14" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-						<div class="itemfontSL" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
-					<td> 
-						<?php
-						$array = array();
-						$array = getSmartLifeService('1');
-						?>
-						<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=1">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageSmart.php?id=1" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('14');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=14">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=14" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-						<div class="itemfontSL" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] + 100 ; ?> € </p>
-						</div>
-						<div class="fontprizereal" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
+				<div class="col-sm-6" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('1');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=1">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=1" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-				</table>
+					<div class="itemfont	" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+				<div class="col-sm-6" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('15');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=1">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=15" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 			</div>
 		</div>
-
 
 		<br>
 		<br>
