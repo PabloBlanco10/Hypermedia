@@ -99,10 +99,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 						<td> 
@@ -120,10 +120,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 						<td> 
@@ -141,10 +141,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 						<td> 
@@ -162,10 +162,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 			
@@ -208,10 +208,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 					<td> 
@@ -229,10 +229,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 					<td> 
@@ -250,10 +250,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 					<td> 
@@ -271,10 +271,10 @@
 					<?php echo $array[0] ?></p>
 				</div>
 				<div class="fontprize" ><p>
-					<?php echo $array[1]; ?> € </p>
+					<?php echo $array[1] + 100 ; ?> € </p>
 				</div>
 				<div class="fontprizereal" ><p>
-					<?php echo $array[1] - $array[1]*0.1; ?> € </p>
+					<?php echo $array[1] ; ?> € </p>
 				</div>
 			</td>
 						
