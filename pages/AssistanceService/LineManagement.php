@@ -89,10 +89,23 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Activation house line</a></li>
-								<li><a href="#">Moving</a></li>
-								<li><a href="#">Subscription change</a></li>
-								<li><a href="#">Returning Items</a></li>
+								<?php
+								$array = array();
+								$array = getAssistanceService('1');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=1"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('2');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=2"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('3');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=3"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('4');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=4"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -105,11 +118,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">MyTIM Mobile</a></li>
-								<li><a href="#">Access MyTIM Mobile sim inserted into alarm</a></li>
-								<li><a href="#">Password Recovery MyTIM Mobile</a></li>
-								<li><a href="#">How to insert a friend number for TIM TIM Young</a></li>
-								<li><a href="#">Access MyTIM cabinet Tablet or Stick</a></li>
+								<?php
+								$array = getAssistanceService('5');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=5"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('6');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=6"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('7');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=7"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('8');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=8"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('9');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=9"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -122,11 +150,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">MyTIM Fixed - line management</a></li>
-								<li><a href="#">How to register with MyTIM Fixed</a></li>
-								<li><a href="#">Username and password recovery MyTIM Fixed</a></li>
-								<li><a href="#">Technical Support</a></li>
-								<li><a href="#">Accessing MyTIM Fixed</a></li>
+								<?php
+								$array = getAssistanceService('10');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=10"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('11');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=11"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('12');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=12"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('13');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=13"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('14');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=14"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -139,11 +182,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Purchasing and shipping times</a></li>
-								<li><a href="#">Learn how to get the invoice of your purchases</a></li>
-								<li><a href="#">Purchases on the site TIM</a></li>
-								<li><a href="#">Right of withdrawal for the purchase of products</a></li>
-								<li><a href="#">Activate an offer online</a></li>
+								<?php
+								$array = getAssistanceService('15');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=15"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('16');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=16"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('17');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=17"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('18');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=18"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('19');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=19"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>

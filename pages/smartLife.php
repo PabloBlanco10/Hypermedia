@@ -63,52 +63,50 @@
 
 	<!-- Body -->
 	<body>
+		<br>
+		<div class="col-sm-6" align="center">
+			<a href="SmartLifeService/TV-Enterteiment.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/01-tv-entertainment.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>TV & ENTERTEIMENT</h3>
+				</div>
+			</a>
+		</div>
 
-		<table align="center">
-			<td> 		
-				<a href="SmartLifeService/TV-Enterteiment.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/01-tv-entertainment.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>TV & ENTERTEIMENT</h3>
-					</div>
-				</a> 
-			</td>
-			<td>
-				<a href="SmartLifeService/Health.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/02-salute-benessere.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>HEALTH</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
+		<div class="col-sm-6" align="center">
+			<a href="SmartLifeService/Health.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/02-salute-benessere.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>HEALTH</h3>	
+				</div> 
+			</a>
+		</div>
 
-		<table align="center">
-			<td> 
-				<a href="SmartLifeService/Home.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/03-casa-famiglia.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>HOME AND FAMILY</h3>	
-					</div> 
-				</a>
-			</td>
-			<td>
-				<a href="SmartLifeService/Person.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/04-tim-personal.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>PERSON</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
+		<div class="col-sm-6" align="right">
+			<a href="SmartLifeService/Home.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/03-casa-famiglia.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>HOME AND FAMILY</h3>	
+				</div> 
+			</a>
+		</div>
+
+		<div class="col-sm-6" align="left">
+			<a href="SmartLifeService/Person.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/04-tim-personal.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>PERSON</h3>	
+				</div> 
+			</a>
+		</div>
 
 		<br>
 		<br>
 		<div align="center" class="promotion">
 			<a href="Promotions.php">
-			<img src="../img/promotions.jpg"
-				  style="width:400px;height:100px" alt="Promotions" class="img-responsive">
-				</a>
+				<img src="../img/promotions.jpg"
+					  style="width:400px;height:100px" alt="Promotions" class="img-responsive">
+			</a>
 		</div>
 
 		<!-- Load footer -->

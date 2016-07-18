@@ -72,7 +72,7 @@
 		<br>
 		<ul class="pagination">
 			<li><a href="LineManagement.php">LINE MANAGEMENT</a></li>
-			<li><a href="MonitoringCosts.php">MONITORING COSTS & PAYMENTS</a></li>
+			<li class="active"><a href="MonitoringCosts.php">MONITORING COSTS & PAYMENTS</a></li>
 			<li><a href="TechnicalSupport.php">TECHNICAL SUPPORT</a></li>
 			<li><a href="SmartLife.php">SMART LIFE</a></li>
 		</ul>
@@ -88,10 +88,23 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Domiciliation on the Current Account</a></li>
-								<li><a href="#">Check remaining credit and bonuses available</a></li>
-								<li><a href="#">Call detail Rechargeable customers</a></li>
-								<li><a href="#">Promotions and automatic renewals</a></li>
+								<?php
+								$array = array();
+								$array = getAssistanceService('21');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=21"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('22');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=22"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('23');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=23"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('24');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=24"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -104,11 +117,24 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Learn how to check the consumption of the line</a></li>
-								<li><a href="#">Payment of the mobile bill online</a></li>
-								<li><a href="#">Call detail for customers with Subscription</a></li>
-								<li><a href="#">Home mobile bill on current account</a></li>
-								<li><a href="#">Promotions and automatic renewals</a></li>
+								<?php
+								$array = getAssistanceService('25');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=25"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('26');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=26"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('27');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=27"><?php echo $array[0] ?></a></li><?php
+								$array = getAssistanceService('28');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=28"><?php echo $array[0] ?></a></li><?php
+								$array = getAssistanceService('29');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=29"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -121,11 +147,24 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Basic fee to navigate from Smartphone, PC</a></li>
-								<li><a href="#">Protection threshold and data traffic block</a></li>
-								<li><a href="#">How to view the section on bonuses</a></li>
-								<li><a href="#">Knowing the available minutes of your key</a></li>
-								<li><a href="#">How to renew your offer Internet</a></li>
+								<?php
+								$array = getAssistanceService('30');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=30"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('31');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=31"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('32');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=32"><?php echo $array[0] ?></a></li><?php
+								$array = getAssistanceService('33');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=33"><?php echo $array[0] ?></a></li><?php
+								$array = getAssistanceService('34');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=34"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -138,10 +177,21 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Installment plans: the disclosure and the early</a></li>
-								<li><a href="#">Change credit card installments deals Rechargeable</a></li>
-								<li><a href="#">The installment plans offered</a></li>
-								<li><a href="#">Early termination for installments offers Rechargeable</a></li>
+								<?php
+								$array = getAssistanceService('35');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=35"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('36');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=36"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('37');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=37"><?php echo $array[0] ?></a></li><?php
+								$array = getAssistanceService('38');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=38"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>

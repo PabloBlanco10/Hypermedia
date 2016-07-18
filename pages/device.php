@@ -64,62 +64,61 @@
 
 	<!-- Body -->
 	<body>
-		<table align="center">
-			<td> 		
-				<a href="../pages/Devices/smartphone.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/smartphones.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>SMARTPHONE</h3>
-					</div>
-				</a> 
-			</td>
-			<td>
-				<a href="../pages/Devices/tablet.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/tablets%20(1).jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>TABLET</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
+		<br>
+		<div class="col-sm-6" align="left">
+			<a href="../pages/Devices/smartphone.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/smartphones.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>SMARTPHONE</h3>
+				</div>
+			</a> 
+		</div>
 
-		<table align="center">
-			<td> 
-				<a href="../pages/Devices/modem.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/Networking%20(1).jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>MODEM & NETWORKING</h3>	
-					</div> 
-				</a>
-			</td>
-			<td>
-				<a href="../pages/Devices/tv.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/tvsmartliving.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>TV & SMARTLIFE</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
-		<table align="center">
-			<td> 
-				<a href="../pages/Devices/Outlet.php">
+		<div class="col-sm-6" align="left">
+			<a href="../pages/Devices/tablet.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/tablets%20(1).jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>TABLET</h3>	
+				</div> 
+			</a>
+		</div>
+
+		<div class="col-sm-6" align="left">
+			<a href="../pages/Devices/modem.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/Networking%20(1).jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>MODEM & NETWORKING</h3>	
+				</div> 
+			</a>
+		</div>
+
+		<div class="col-sm-6" align="left">
+			<a href="../pages/Devices/tv.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/tvsmartliving.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>TV & SMARTLIFE</h3>	
+				</div> 
+			</a>
+		</div>
+
+		<div class="col-sm-12" align="left">
+			<a href="../pages/Devices/Outlet.php">
 					<div class="outlet" align="center">
 						<img src="../img/outlet.jpg"
-							  style="width:1185px;height:300px" alt="Outlet" class="img-responsive"/>
+							  style="width:1300px;height:300px" alt="Outlet" class="img-responsive"/>
 						<h3>OUTLET</h3>
 					</div>
 				</a>
-			</td>
-		</table>
+		</div>
+
 
 		<br>
 		<br>
 		<div align="center" class="promotion">
 			<a href="Promotions.php">
-			<img src="../img/promotions.jpg"
-				  style="width:400px;height:100px" alt="Promotions" class="img-responsive">
-				</a>
+				<img src="../img/promotions.jpg"
+					  style="width:400px;height:100px" alt="Promotions" class="img-responsive">
+			</a>
 		</div>
 
 		<!-- Load footer -->

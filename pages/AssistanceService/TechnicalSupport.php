@@ -88,11 +88,27 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Specialized technical assistance with SOSsmartphone</a></li>
-								<li><a href="#">Discount voucher for return phone</a></li>
-								<li><a href="#">Specialized technical assistance with SOS PC</a></li>
-								<li><a href="#">Maps on your mobile phone service</a></li>
-								<li><a href="#">TIM application store</a></li>
+								<?php
+								$array = array();
+								$array = getAssistanceService('40');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=40"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('41');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=41"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('42');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=42"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('43');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=43"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('44');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=44"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -105,11 +121,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">Memotel</a></li>
-								<li><a href="#">Waiting for Call</a></li>
-								<li><a href="#">Call transfer</a></li>
-								<li><a href="#">Disable Call</a></li>
-								<li><a href="#">Guides home products not traded</a></li>
+								<?php
+								$array = getAssistanceService('45');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=45"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('46');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=46"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('47');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=47"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('48');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=48"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('49');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=49"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -122,11 +153,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">How to call</a></li>
-								<li><a href="#">How to navigate</a></li>
-								<li><a href="#">Most frequent problems</a></li>
-								<li><a href="#">Fiber modem manual</a></li>
-								<li><a href="#">The fiber service features</a></li>
+								<?php
+								$array = getAssistanceService('50');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=50"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('51');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=51"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('52');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=52"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('53');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=53"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('54');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=54"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -139,11 +185,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">I do not connect to the Internet</a></li>
-								<li><a href="#">Get disconnected</a></li>
-								<li><a href="#">Slowly navigation</a></li>
-								<li><a href="#">Cannot Navigate</a></li>
-								<li><a href="#">Dial-up connection problems</a></li>
+								<?php
+								$array = getAssistanceService('55');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=55"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('56');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=56"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('57');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=57"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('58');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=58"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('59');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=59"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>

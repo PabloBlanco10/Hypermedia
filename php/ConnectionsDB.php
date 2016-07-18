@@ -73,8 +73,9 @@ function getAssistanceService($id){
 	$arr = array();
 	if ($fila = mysql_fetch_assoc($resultado)) {
 		$arr[0] = $fila['Name'];
-		$arr[1] = $fila['Characteristics'];
-		$arr[2] = $fila['Details'];
+		$arr[1] = $fila['Class'];
+		$arr[2] = $fila['Description'];
+		$arr[3] = $fila['Question'];
 	}
 	return $arr;
 }
@@ -101,5 +102,4 @@ function getWhoWeAre($id){
 	}
 	return $arr;
 }
-
 

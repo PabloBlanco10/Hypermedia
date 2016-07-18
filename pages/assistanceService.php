@@ -62,50 +62,51 @@
 
 	<body>
 		<!-- Body -->
-		<table align="center">
-			<td> 		
-				<a href="AssistanceService/LineManagement.php"	>
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/bottom_networking.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>LINE MANAGEMENT</h3>
-					</div>
-				</a> 
-			</td>
-			<td>
-				<a href="AssistanceService/MonitoringCosts.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/tarjeta-credito.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>MONITORING COSTS</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
-
-		<table align="center">
-			<td> 
-				<a href="AssistanceService/TechnicalSupport.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/tech_support_help.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>TECHNICAL SUPPORT</h3>	
-					</div> 
-				</a>
-			</td>
-			<td>
-				<a href="AssistanceService/SmartLife.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../img/smartlife-logo.png" style="width:585px;height:300px" alt="Smartphones">
-						<h3>SMARTLIFE</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
-
 		<br>
-		<br>
-		<div align="center" class="highlights">
-			<img src="../img/Highlights.jpg"
-				  style="width:400px;height:100px" alt="highlights" class="img-responsive">
+		<div class="col-sm-6" align="left">
+			<a href="AssistanceService/LineManagement.php"	>
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/bottom_networking.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>LINE MANAGEMENT</h3>
+				</div>
+			</a> 
 		</div>
+
+		<div class="col-sm-6" align="left">
+			<a href="AssistanceService/MonitoringCosts.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/tarjeta-credito.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>MONITORING COSTS</h3>	
+				</div> 
+			</a>
+		</div>
+
+		<div class="col-sm-6" align="left">
+			<a href="AssistanceService/TechnicalSupport.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/tech_support_help.jpg" style="width:625px;height:300px" alt="Smartphones">
+					<h3>TECHNICAL SUPPORT</h3>	
+				</div> 
+			</a>
+		</div>
+
+		<div class="col-sm-6" align="left">
+			<a href="AssistanceService/SmartLife.php">
+				<div class="imagenWithButton" align="center">
+					<img class="img-responsive" src="../img/smartlife-logo.png" style="width:625px;height:300px" alt="Smartphones">
+					<h3>SMARTLIFE</h3>	
+				</div> 
+			</a>
+		</div>
+		
+		<br>
+		<br>
+		<a href="AssistanceService/Highlights.php">
+			<div align="center" class="highlights">
+				<img src="../img/Highlights.jpg"
+					  style="width:400px;height:100px" alt="highlights" class="img-responsive">
+			</div>
+		</a>
 
 		<!-- Load footer -->
 		<br>

@@ -88,11 +88,27 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">What is TIMgames</a></li>
-								<li><a href="#">All the ways to subscribe</a></li>
-								<li><a href="#">Accessing TIMgames</a></li>
-								<li><a href="#">Knowing the App TIMgames</a></li>
-								<li><a href="#">How to see your subscriptions</a></li>
+								<?php
+								$array = array();
+								$array = getAssistanceService('60');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=60"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('61');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=61"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('62');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=62"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('63');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=63"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('64');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=64"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -105,11 +121,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">What is TIMreading</a></li>
-								<li><a href="#">All the ways to buy</a></li>
-								<li><a href="#">Where can you read</a></li>
-								<li><a href="#">App TIMreading</a></li>
-								<li><a href="#">Configure the Adobe ID</a></li>
+								<?php
+								$array = getAssistanceService('65');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=65"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('66');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=66"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('67');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=67"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('68');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=68"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('69');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=69"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -122,11 +153,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">What is TIMmusic</a></li>
-								<li><a href="#">All the ways to buy</a></li>
-								<li><a href="#">How to listen in wifi mode?</a></li>
-								<li><a href="#">Like listening in off line mode?</a></li>
-								<li><a href="#">How do I synchronize playlists from a PC to smartphone and tablet</a></li>
+								<?php
+								$array = getAssistanceService('70');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=70"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('71');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=71"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('72');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=72"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('73');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=73"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('74');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=74"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
@@ -139,11 +185,26 @@
 						</div>
 						<div class="col-sm-6 questionsBox">
 							<ul>
-								<li><a href="#">What is TIMvision</a></li>
-								<li><a href="#">All the ways to subscribe</a></li>
-								<li><a href="#">What can I do with TIMvision</a></li>
-								<li><a href="#">Videostore - great movie rentals</a></li>
-								<li><a href="#">Sizes and types of content</a></li>
+								<?php
+								$array = getAssistanceService('75');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=75"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('76');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=76"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('77');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=77"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('78');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=78"><?php echo $array[0] ?></a></li>
+								<?php
+								$array = getAssistanceService('79');
+								?>
+								<li><a href="Questions/GenericQuestions.php?id=79"><?php echo $array[0] ?></a></li>
 							</ul> 
 						</div>
 					</div>
