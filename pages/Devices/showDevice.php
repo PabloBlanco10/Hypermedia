@@ -129,6 +129,45 @@
 			<div class="panel-body" align="center">
 				<div class="textDevice"><p><?php echo $array[0]; ?></p></div>
 
+				<?php
+				$array = array();
+				$array = getSmartLifeService('6');
+				?>
+				<div class="recommended" align="left">
+					<a href="../SmartLifeService/Device/GenericDevice.php?id=6">
+						<p><?php echo $array[0]; ?>
+						</p>
+					</a>	
+					
+					<?php
+				$array = array();
+				$array = getSmartLifeService('11');
+				?>
+					<a href="../SmartLifeService/Device/GenericDevice.php?id=11">
+						<p><?php echo $array[0]; ?>
+						</p>
+					</a>	
+					
+					<?php
+				$array = array();
+				$array = getSmartLifeService('15');
+				?>
+					<a href="../SmartLifeService/Device/GenericDevice.php?id=15">
+						<p><?php echo $array[0]; ?>
+						</p>
+					</a>	
+							
+					<?php
+				$array = array();
+				$array = getSmartLifeService('2');
+				?>
+					<a href="../SmartLifeService/Device/GenericDevice.php?id=2">
+						<p><?php echo $array[0]; ?>
+						</p>
+					</a>	
+					
+				</div>
+
 				<table align="center">
 					<td> 
 						<div class="Device" align="center">
