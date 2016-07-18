@@ -164,20 +164,7 @@
 				<table align="left">
 					<hr>
 					<td>
-						<h1 class="textDetails" align="left">Characteristics</h1>
-						<div class="Details" align="left">
-							<ul>
-								<?php echo $array[4]; ?>
-							</ul> 
-						</div> 	
-					</td>
-				</table>
-				<?php endif; ?>
-
-				<?php if($array[5] != null) : ?>
-				<table align="left">
-					<td>
-						<h1 class="textDetails">Details</h1>
+						<h1 class="textDetails" align="left">Details</h1>
 						<div class="Details" align="left">
 							<ul>
 								<?php echo $array[4]; ?>

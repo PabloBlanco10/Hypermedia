@@ -198,11 +198,5 @@
 			<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
 		</ul>
 	</footer>	
-	</body>
 </html>
 
-<script>
-	function myFunction() {
-
-	}
-</script>

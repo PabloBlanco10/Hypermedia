@@ -106,10 +106,17 @@
 			<div class="panel-body" align="center">
 				<div class="textDevice"><p><?php echo $array[0]; ?></p></div>
 
+				<div class="recommended" align="left">
+				<a href="../../Recommended.php">
+				<p>Recommended<br>Devices</p>
+				</a>	
+				</div>
+				
 				<table align="center">
 					<td> 
+						
 						<div class="Device" align="center">
-							<img class="img-responsive" src="../../../php/getImageSmart.php?id=<?php echo $id ?>" style="width:330px;height:300px" alt="SamsungGearS2" align="center">
+							<img class="img-noborder" src="../../../php/getImageSmart.php?id=<?php echo $id ?>" style="width:330px;height:300px" alt="SamsungGearS2" align="center">
 						</div> 
 					</td>
 					<?php if($array[3] != null) : ?>
@@ -136,7 +143,8 @@
 					</td>
 				</table>
 				<?php endif; ?>
-
+	
+				
 				<?php if($array[4] != null) : ?>
 				<table align="left">
 					<hr>

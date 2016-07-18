@@ -2,21 +2,33 @@
 	text-align: center;
 	width: 360px;
 	height: 80px;
-
 	font-weight: 700;
-	font-size: 24px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	background-color: skyblue;
-	border-style: solid;
+	font-size: 42px;
+	margin-top: 2%;
+	margin-bottom: 4%;
 	font-family: monospace;
 }
 
+div.recommended{
+		text-align: center;
+		font-family: monospace;
+		font-size: 26px;
+		position: absolute;
+		bottom: 1%;
+	border-style: outset;
+	border-color: lightblue;
+	padding: 1% 1%;
+
+}
 .panel {
-	margin-top: 1%;
+	margin-top: 4%;
 	margin-right: 3%;
 	margin-left: 3%;
 	background-color: white;
+}
+
+.img-noborder{
+	border-style: none;
 }
 
 .prizefont{
@@ -33,6 +45,7 @@
 	font-family: monospace;
 	border: black 3px solid;
 }
+
 
 .textBuy{
 	color: red;

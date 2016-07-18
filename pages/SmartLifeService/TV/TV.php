@@ -71,8 +71,8 @@
 		<!-- SubMenu -->
 		<br>
 		<ul class="pagination">
-			<li><a href="../TV-Enterteiment.php">TV & ENTERTEIMENT</a></li>
-			<li class="active"><a href="../Health.php">HEALTH</a></li>
+			<li class="active"><a href="../TV-Enterteiment.php">TV & ENTERTEIMENT</a></li>
+			<li><a href="../Health.php">HEALTH</a></li>
 			<li><a href="../Home.php">HOME</a></li>
 			<li><a href="../Person.php">PERSON</a></li>
 		</ul>
