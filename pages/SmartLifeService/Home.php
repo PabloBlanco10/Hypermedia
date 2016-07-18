@@ -86,9 +86,10 @@
 			</td>
 		</table>
 
-		<table align="center">
-			<td> 
-				<a href="Device/GenericDevice.php?id=9">
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<div class="col-sm-4">
+					<a href="Device/GenericDevice.php?id=9">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -97,9 +98,9 @@
 						<img class="img-responsive" src="../../php/getImageSmart.php?id=9" style="width:300px;height:200px" alt="TimTag" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
-			</td>
-			<td> 
-				<a href="Device/GenericDevice.php?id=10">
+				</div>
+				<div class="col-sm-4">
+					<a href="Device/GenericDevice.php?id=10">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -109,9 +110,9 @@
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
-			</td>
-			<td> 
-				<a href="Device/GenericDevice.php?id=11">
+				</div>
+				<div class="col-sm-4">
+					<a href="Device/GenericDevice.php?id=11">
 					<div class="imagenWithButton" align="center">
 						<?php
 						$array = array();
@@ -121,22 +122,28 @@
 						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
 					</div> 
 				</a>
-			</td>
-		</table>
+				</div>
+			</div>
+		</div>
+
 
 		<!-- Load footer -->
 		<br>
 		<br>
-		<footer class="footer">
-			<ul class="list-unstyled">
-				<li><p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-					<img src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-				</li>
-				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
-				</li>
-				<li><a href="../infoRequest.php" class="text-request-info">Request Info</a></li>
-				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
-			</ul>
-		</footer>	
+		<div class="footer" align="center">
+			<div class="col-sm-3">
+				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
+				<img class="img-responsive" src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+			</div>
+			<div class="col-sm-3">
+				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
+			</div>
+			<div class="col-sm-3">
+				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-copyright">© 2016 Politecnico di Milano</p>
+			</div>
+		</div>
 	</body>
 </html>

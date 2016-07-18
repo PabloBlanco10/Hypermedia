@@ -94,15 +94,15 @@
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=21"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('22');
+	$array = getAssistanceService('22');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=22"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('23');
+	$array = getAssistanceService('23');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=23"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('24');
+	$array = getAssistanceService('24');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=24"><?php echo $array[0] ?></a></li>
 							</ul> 
@@ -118,21 +118,21 @@
 						<div class="col-sm-6 questionsBox">
 							<ul>
 								<?php
-								$array = getAssistanceService('25');
+	$array = getAssistanceService('25');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=25"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('26');
+	$array = getAssistanceService('26');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=26"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('27');
+	$array = getAssistanceService('27');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=27"><?php echo $array[0] ?></a></li><?php
-								$array = getAssistanceService('28');
+	$array = getAssistanceService('28');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=28"><?php echo $array[0] ?></a></li><?php
-								$array = getAssistanceService('29');
+	$array = getAssistanceService('29');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=29"><?php echo $array[0] ?></a></li>
 							</ul> 
@@ -148,21 +148,21 @@
 						<div class="col-sm-6 questionsBox">
 							<ul>
 								<?php
-								$array = getAssistanceService('30');
+	$array = getAssistanceService('30');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=30"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('31');
+	$array = getAssistanceService('31');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=31"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('32');
+	$array = getAssistanceService('32');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=32"><?php echo $array[0] ?></a></li><?php
-								$array = getAssistanceService('33');
+	$array = getAssistanceService('33');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=33"><?php echo $array[0] ?></a></li><?php
-								$array = getAssistanceService('34');
+	$array = getAssistanceService('34');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=34"><?php echo $array[0] ?></a></li>
 							</ul> 
@@ -178,18 +178,18 @@
 						<div class="col-sm-6 questionsBox">
 							<ul>
 								<?php
-								$array = getAssistanceService('35');
+	$array = getAssistanceService('35');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=35"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('36');
+	$array = getAssistanceService('36');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=36"><?php echo $array[0] ?></a></li>
 								<?php
-								$array = getAssistanceService('37');
+	$array = getAssistanceService('37');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=37"><?php echo $array[0] ?></a></li><?php
-								$array = getAssistanceService('38');
+	$array = getAssistanceService('38');
 								?>
 								<li><a href="Questions/GenericQuestions.php?id=38"><?php echo $array[0] ?></a></li>
 							</ul> 
@@ -216,16 +216,20 @@
 		<!-- Load footer -->
 		<br>
 		<br>
-		<footer class="footer">
-			<ul class="list-unstyled">
-				<li><p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-					<img src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-				</li>
-				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
-				</li>
-				<li><a href="../infoRequest.php" class="text-request-info">Request Info</a></li>
-				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
-			</ul>
-		</footer>	
+		<div class="footer" align="center">
+			<div class="col-sm-3">
+				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
+				<img class="img-responsive" src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+			</div>
+			<div class="col-sm-3">
+				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
+			</div>
+			<div class="col-sm-3">
+				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-copyright">© 2016 Politecnico di Milano</p>
+			</div>
+		</div>	
 	</body>
 </html>

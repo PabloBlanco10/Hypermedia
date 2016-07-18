@@ -168,16 +168,20 @@
 		<!-- Load footer -->
 		<br>
 		<br>
-		<footer class="footer">
-			<ul class="list-unstyled">
-				<li><p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-					<img src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-				</li>
-				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
-				</li>
-				<li><a href="../../infoRequest.php" class="text-request-info">Request Info</a></li>
-				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
-			</ul>
-		</footer>	
+		<div class="footer" align="center">
+			<div class="col-sm-3">
+				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
+				<img class="img-responsive" src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+			</div>
+			<div class="col-sm-3">
+				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
+			</div>
+			<div class="col-sm-3">
+				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-copyright">© 2016 Politecnico di Milano</p>
+			</div>
+		</div>
 	</body>
 </html>

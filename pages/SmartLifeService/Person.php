@@ -23,7 +23,7 @@
 		<link rel="stylesheet" type="text/css" href="../../css/styleSmartLifeService.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../../css/styleFooter.css">
-		
+
 		<?php require_once '../../php/ConnectionsDB.php'; ?>
 	</head>
 
@@ -86,68 +86,75 @@
 			</td>
 		</table>
 
-		<table align="center">
-			<td> 
-				<a href="Device/GenericDevice.php?id=12">
-					<div class="imagenWithButton" align="center">
-						<?php
-						$array = array();
-						$array = getSmartLifeService('12');
-						?>
-						<img class="img-responsive" src="../../php/getImageSmart.php?id=12" style="width:275px;height:200px" alt="WerHome" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
-					</div> 
-				</a>
-			</td>
-			<td> 
-				<a href="Device/GenericDevice.php?id=13">
-					<div class="imagenWithButton" align="center">
-						<?php
-						$array = array();
-						$array = getSmartLifeService('13');
-						?>
-						<img class="img-responsive" src="../../php/getImageSmart.php?id=13" style="width:275px;height:200px" alt="LivingColours" align="center">
-						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
-					</div> 
-				</a>
-			</td>
-			<td> 
-				<a href="Device/GenericDevice.php?id=14">
-					<div class="imagenWithButton" align="center">
-						<?php
-						$array = array();
-						$array = getSmartLifeService('14');
-						?>
-						<img class="img-responsive" src="../../php/getImageSmart.php?id=14" style="width:275px;height:200px" alt="Repeater" align="center">
-						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
-					</div> 
-				</a>
-			</td>
-			<td> 
-				<a href="Device/GenericDevice.php?id=15">
-					<div class="imagenWithButton" align="center">
-						<?php
-						$array = array();
-						$array = getSmartLifeService('15');
-						?>
-						<img class="img-responsive" src="../../php/getImageSmart.php?id=15" style="width:275px;height:200px" alt="VideoCamera" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
-					</div> 
-				</a>
-			</td>
-		</table>
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<div class="col-sm-3">
+					<a href="Device/GenericDevice.php?id=12">
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('12');
+							?>
+							<img class="img-responsive" src="../../php/getImageSmart.php?id=12" style="width:275px;height:200px" alt="WerHome" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						</div> 
+					</a>
+				</div>
+
+				<div class="col-sm-3">
+					<a href="Device/GenericDevice.php?id=13">
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('13');
+							?>
+							<img class="img-responsive" src="../../php/getImageSmart.php?id=13" style="width:275px;height:200px" alt="LivingColours" align="center">
+							<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						</div> 
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Device/GenericDevice.php?id=14">
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('14');
+							?>
+							<img class="img-responsive" src="../../php/getImageSmart.php?id=14" style="width:275px;height:200px" alt="Repeater" align="center">
+							<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						</div> 
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="Device/GenericDevice.php?id=15">
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('15');
+							?>
+							<img class="img-responsive" src="../../php/getImageSmart.php?id=15" style="width:275px;height:200px" alt="VideoCamera" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						</div> 
+					</a>
+				</div>
+			</div>
+		</div>
 
 		<!-- Load footer -->
 		<br>
 		<br>
-		<footer class="footer">
-			<ul class="list-unstyled">
-				<li><p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-					<img src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-				</li>
-				<li><p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>							
-				</li>
-				<li><a href="../infoRequest.php" class="text-request-info">Request Info</a></li>
-				<li class="text-copyright"><p>© 2016 Politecnico di Milano</p></li>
-			</ul>
-		</footer>	
+		<div class="footer" align="center">
+			<div class="col-sm-3">
+				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
+				<img class="img-responsive" src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+			</div>
+			<div class="col-sm-3">
+				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
+			</div>
+			<div class="col-sm-3">
+				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-copyright">© 2016 Politecnico di Milano</p>
+			</div>
+		</div>	
 	</body>
 </html>
