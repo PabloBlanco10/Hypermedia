@@ -15,6 +15,10 @@ figcaption.textFigure{
     margin-left: 3%;
     background-color: white;
 }
+
+.panel-default{
+	margin-top: 4%;
+}
 .imagenDetails{
 	position:absolute;
 	margin-top: -150px; 
@@ -33,6 +37,7 @@ figcaption.textFigure{
 .panel-body{
 	border-style: solid;
 	margin-top: -1px;
+	
 }
 
 div.itemfont{

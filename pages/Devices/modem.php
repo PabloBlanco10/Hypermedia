@@ -95,6 +95,7 @@
 				<div class="fontprize" ><p>
 					<?php echo $array[1]; ?> € </p>
 				</div>
+				
 				<a href="showDevice.php?id=12">
 					<div class="imagenDetails" align="right">
 						<img class="img-noborder" src="../../img/seedetails.png" style="width:175px;height:28px" alt="Details">

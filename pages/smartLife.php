@@ -105,8 +105,10 @@
 		<br>
 		<br>
 		<div align="center" class="promotion">
+			<a href="Promotions.php">
 			<img src="../img/promotions.jpg"
 				  style="width:400px;height:100px" alt="Promotions" class="img-responsive">
+				</a>
 		</div>
 
 		<!-- Load footer -->
