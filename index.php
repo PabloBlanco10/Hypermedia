@@ -22,11 +22,11 @@
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 		<!-- Load Header and Footer -->
-		<script src="../javascript/script.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="../css/style.css">
-		<link rel="stylesheet" type="text/css" href="../css/styleHeader.css">
-		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
-		<?php require_once '../php/ConnectionsDB.php'; ?>
+		<script src="javascript/script.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/styleHeader.css">
+		<link rel="stylesheet" type="text/css" href="css/styleFooter.css">
+		<?php require_once 'php/ConnectionsDB.php'; ?>
 
 	</head>
 
@@ -34,7 +34,7 @@
 	<nav class="navbar navbar-inverse" style="background-color:darkblue;" style="position:fixed">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.php"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
+				<a href="index.php"><img id="logo" src="img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -45,16 +45,16 @@
 
 				<ul class="nav navbar-nav">
 					<li class="textHeader">
-						<a href="device.php" style="color:blue">
+						<a href="pages/device.php" style="color:blue">
 							<span class="glyphicon glyphicon-phone"></span>DEVICE
 						</a>
 					</li>
-					<li class="textHeader"><a href="smartLife.php" style="color:blue"><span class="glyphicon glyphicon-globe"></span> SMART LIFE SERVICE</a></li>
-					<li class="textHeader"><a href="assistanceService.php" style="color:blue"><span class="glyphicon glyphicon-question-sign"></span>ASSISTANCE SERVICE</a></li>
+					<li class="textHeader"><a href="pages/smartLife.php" style="color:blue"><span class="glyphicon glyphicon-globe"></span> SMART LIFE SERVICE</a></li>
+					<li class="textHeader"><a href="pages/assistanceService.php" style="color:blue"><span class="glyphicon glyphicon-question-sign"></span>ASSISTANCE SERVICE</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
-					<li class="textHeader"><a href="WhoWeAre.php" style="color:blue"><span class="glyphicon glyphicon-user"></span> WHO WE ARE</a></li>
+					<li class="textHeader"><a href="pages/WhoWeAre.php" style="color:blue"><span class="glyphicon glyphicon-user"></span> WHO WE ARE</a></li>
 					<li class="textHeader"><a href="#" style="color:blue"><span class="glyphicon glyphicon-text-size"></span>IM</a></li>
 				</ul>
 			</div>
@@ -78,9 +78,9 @@
 					$array = array();
 					$array = getDevice('1');
 					?>
-					<a href="../pages/Devices/showDevice.php?id=1">
+					<a href="pages/Devices/showDevice.php?id=1">
 						<div class="imagenWithButton" align="center">
-							<img class="img-noborder img-responsive" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
+							<img class="img-noborder img-responsive" src="php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
 						</div> 
 					</a>
 
@@ -94,9 +94,9 @@
 	$array = array();
 						$array = getDevice('7');
 					?>
-					<a href="../pages/Devices/showDevice.php?id=7">
+					<a href="pages/Devices/showDevice.php?id=7">
 						<div class="imagenWithButton" align="center">
-							<img class="img-noborder img-responsive" src="../php/getImageDevice.php?id=7" style="width:300px;height:250px" alt="Promotion">
+							<img class="img-noborder img-responsive" src="php/getImageDevice.php?id=7" style="width:300px;height:250px" alt="Promotion">
 						</div> 
 					</a>
 
@@ -109,9 +109,9 @@
 	$array = array();
 						$array = getSmartLifeService('7');
 					?>
-					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=7">
+					<a href="pages/SmartLifeService/Device/GenericDevice.php?id=7">
 						<div class="imagenWithButton" align="center">
-							<img class="img-noborder img-responsive" src="../php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
+							<img class="img-noborder img-responsive" src="php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
 						</div> 
 					</a>
 
@@ -130,9 +130,9 @@
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
 				<div class="col-sm-12" align="center" style="margin-bottom:2%;">
-					<a href="Devices/Outlet.php">
+					<a href="pages/Devices/Outlet.php">
 						<div align="center" >
-							<img class="img-noborder img-responsive" src="../img/out.jpg" style="width:1300px;height:350px" alt="Promotion">
+							<img class="img-noborder img-responsive" src="img/out.jpg" style="width:1300px;height:350px" alt="Promotion">
 						</div> 
 					</a>
 				</div>
@@ -143,25 +143,25 @@
 			<div class="panel-body" align="center" style="font-size: 22px;font-family: monospace; background-color:darkblue">
 
 				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
-					<a href="AssistanceService/Highlights.php">
+					<a href="pages/AssistanceService/Highlights.php">
 						FREQUENTLY QUESTIONS
 					</a>
 				</div>
 
 				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
-					<a href="WhoWeAreAwards.php">
+					<a href="pages/WhoWeAreAwards.php">
 						AWARDS
 					</a>
 				</div>
 
 				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
-					<a href="SmartLifeService/TV/TV.php">
+					<a href="pages/SmartLifeService/TV/TV.php">
 						TIM VISION
 					</a>
 				</div>
 
 				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
-					<a href="WhoWeAre.php">
+					<a href="pages/WhoWeAre.php">
 						HISTORY
 					</a>
 				</div>
@@ -177,13 +177,13 @@
 	<div class="footer" align="center">
 		<div class="col-sm-3">
 			<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-			<img class="img-responsive" src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+			<img class="img-responsive" src="img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
 		</div>
 		<div class="col-sm-3">
 			<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
 		</div>
 		<div class="col-sm-3">
-			<a href="infoRequest.php" class="text-request-info">Request Info</a>
+			<a href="pages/infoRequest.php" class="text-request-info">Request Info</a>
 		</div>
 		<div class="col-sm-3">
 			<p class="text-copyright">© 2016 Politecnico di Milano</p>

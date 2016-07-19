@@ -1,15 +1,15 @@
 <?php
-/* ALTERVISTA */
-$username = "hyp43tim";
-$password = "";
-$host = "ftp.hyp43tim.altervista.org";
-$database = "my_hyp43tim";
-
-/* XAMPP */
-/*$username = "root";
+	/* ALTERVISTA 
+	$username = "hyp43tim";
+	$password = "fabobigs80";
+	$host = "ftp.hyp43tim.altervista.org";
+	$database = "my_hyp43tim";*/
+	
+	/* XAMPP */
+	$username = "root";
 	$password = "";
 	$host = "localhost";
-	$database = "my_hyp43tim";*/
+	$database = "my_hyp43tim";
 
 $db = mysql_connect($host, $username, $password) or die("Unable to connect with the DataBase");
 mysql_select_db($database, $db) or die("Unable to connect with the DataBase"); 
