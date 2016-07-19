@@ -66,7 +66,7 @@
 
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
-		<a href="../index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
+		<a href="../../index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
 		<a href="../../assistanceService.php" class="btn btn-default">ASSISTANCE SERVICE</a>
 		<a href="#" class="btn btn-default"><?php echo $array[1]; ?></a>
 		<a href="#" class="btn btn-default"><?php echo $array[0]; ?></a>
