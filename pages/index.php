@@ -26,6 +26,8 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
+				<?php require_once '../php/ConnectionsDB.php'; ?>
+
 	</head>
 
 	<!-- Load header -->
@@ -66,55 +68,96 @@
 	<!-- Body -->
 	<body>
 		<br>
-		<div class="panel panel-default">
-			<div class="panel-body" align="center">
-				<div class="col-sm-12" style="margin-bottom:30px;">
-					<a href="Device/GenericDevice.php?id=8">
-						<img src="../img/iphone6.JPG" class="img-responsive" style="width:1300px;height:500px" alt="Iphone6"/>
+		
+		<div class="panel panel-danger">
+			<div class="panel-heading">SEE OUR LAST PROMOTIONS</div>
+			<div class="panel-body">
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('1');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=1">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
+						</div> 
 					</a>
-				</div>
-				<br>
 
-				<div class="col-sm-6" style="margin-bottom:30px;">
-					<a href="#">
-						<img src="../img/640x480_MayS7.jpg"  class="img-responsive"
-							  style="width:585px;height:300px" alt="Tablets"/>
-					</a>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
 				</div>
 
-				<div class="col-sm-6" style="margin-bottom:30px;"	>
-					<a href="#">
-						<img src="../img/iphone6.JPG" class="img-responsive"
-							  style="width:585px;height:300px" alt="Iphone6"/>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('7');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=7">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=7" style="width:300px;height:250px" alt="Promotion">
+						</div> 
 					</a>
+
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
 				</div>
-				
-				<div class="col-sm-3">
-					<a href="#">
-						RECOMMENDED DEVICE
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('7');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=7">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
+						</div> 
 					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#">
-						LAST AWARD
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#">
-						OUR HISTORY
-					</a>
-				</div>
-				<div class="col-sm-3">
-					<a href="#">
-						FREQUENTLY QUESTIONS
-					</a>
+
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+
+		<br>
+		<br>
+		<br>
 				</div>
 			</div>
 		</div>
+		
+		
+			<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				
+				<div class="col-sm-6" style="margin-bottom:30px;"	>
+					<a href="../pages/Devices/showDevice.php?id=2">
+						<img src="../img/iphone6.JPG" class="img-responsive"
+							  style="width:580px;height:250px" alt="Iphone6" align="left"/>
+					</a>
+				</div>
+				
+
+				<div class="col-sm-6" style="margin-bottom:30px;">
+					<a href="../pages/Devices/showDevice.php?id=5">
+						<img src="../img/640x480_MayS7.jpg"  class="img-responsive"
+							  style="width:580px;height:250px" alt="Samsung"/>
+					</a>
+				</div>
+			
+			</div>
+		</div>
+		
+		
+		
+	</body>
+
+		
+	
+
+	
 
 		<!-- Load footer -->
-		<br>
-		<br>
+		
 		<div class="footer" align="center">
 			<div class="col-sm-3">
 				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
@@ -130,6 +173,5 @@
 				<p class="text-copyright">© 2016 Politecnico di Milano</p>
 			</div>
 		</div>
-	</body>
 
 </html>

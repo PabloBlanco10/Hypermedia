@@ -17,6 +17,35 @@ body{
 	margin-right: 3.5%;
 }
 
+.recommended{
+	text-align: center;
+	font-family: monospace;
+	font-size: 26px;
+	position: relative;
+	margin-top:3%;
+	bottom: 1%;
+	border-style: outset;
+	border-color: black;
+	background-color:lightgoldenrodyellow;
+	padding: 1% 1%;
+
+}
+
+.panel-default{
+	margin-top: 4%;
+}
+div.ind{
+	text-align: center;
+	font-family: monospace;
+	font-size: 26px;
+	position: relative;
+	margin-top:3%;
+	bottom: 1%;
+	border-style: outset;
+	border-color: black;
+	background-color:lightskyblue;
+	padding: 1% 1%;
+}
 .promotion > img{
 	border-color: lightgray;
 }
