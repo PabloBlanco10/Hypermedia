@@ -87,9 +87,6 @@
 					<div class="itemfont" ><p>
 						<?php echo $array[0] ?></p>
 					</div>
-					<div class="fontprize" ><p>
-						<?php echo $array[1] + 100 ; ?> € </p>
-					</div>
 					<div class="fontprizereal" ><p>
 						<?php echo $array[1] ; ?> € </p>
 					</div>
@@ -108,9 +105,6 @@
 
 					<div class="itemfont" ><p>
 						<?php echo $array[0] ?></p>
-					</div>
-					<div class="fontprize" ><p>
-						<?php echo $array[1] + 100 ; ?> € </p>
 					</div>
 					<div class="fontprizereal" ><p>
 						<?php echo $array[1] ; ?> € </p>
@@ -131,9 +125,6 @@
 					<div class="itemfont" ><p>
 						<?php echo $array[0] ?></p>
 					</div>
-					<div class="fontprize" ><p>
-						<?php echo $array[1] + 100 ; ?> € </p>
-					</div>
 					<div class="fontprizereal" ><p>
 						<?php echo $array[1] ; ?> € </p>
 					</div>
@@ -153,9 +144,6 @@
 					<div class="itemfont" ><p>
 						<?php echo $array[0] ?></p>
 					</div>
-					<div class="fontprize" ><p>
-						<?php echo $array[1] + 100 ; ?> € </p>
-					</div>
 					<div class="fontprizereal" ><p>
 						<?php echo $array[1] ; ?> € </p>
 					</div>
@@ -174,9 +162,6 @@
 
 					<div class="itemfont" ><p>
 						<?php echo $array[0] ?></p>
-					</div>
-					<div class="fontprize" ><p>
-						<?php echo $array[1] + 100 ; ?> € </p>
 					</div>
 					<div class="fontprizereal" ><p>
 						<?php echo $array[1] ; ?> € </p>
