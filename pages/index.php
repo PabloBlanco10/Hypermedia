@@ -127,12 +127,16 @@
 		</div>
 
 		<br>
-		<div class="col-sm-12" align="center" style="margin-bottom:2%;">
-			<a href="Devices/Outlet.php">
-				<div align="center" >
-					<img class="img-noborder img-responsive" src="../img/out.jpg" style="width:1300px;height:350px" alt="Promotion">
-				</div> 
-			</a>
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<div class="col-sm-12" align="center" style="margin-bottom:2%;">
+					<a href="Devices/Outlet.php">
+						<div align="center" >
+							<img class="img-noborder img-responsive" src="../img/out.jpg" style="width:1300px;height:350px" alt="Promotion">
+						</div> 
+					</a>
+				</div>
+			</div>
 		</div>
 
 		<div class="panel panel-default">

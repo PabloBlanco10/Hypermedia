@@ -77,7 +77,7 @@
 			<li><a href="tablet.php">TABLET</a></li>
 			<li><a href="modem.php">MODEM & NETWORKING</a></li>
 			<li class="active"><a href="tv.php">TV & SMARTLIVING</a></li>
-			<li><a href="outlet.php">OUTLET</a></li>
+			<li><a href="Outlet.php">OUTLET</a></li>
 
 		</ul>
 
