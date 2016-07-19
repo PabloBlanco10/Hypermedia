@@ -20,6 +20,7 @@
 		<!-- CSS Pages -->
 		<script src="../javascript/script.js" type="text/javascript"></script>
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleAssistance.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
 		<?php require_once '../php/ConnectionsDB.php'; ?>
@@ -69,163 +70,137 @@
 		<br>
 
 
-
-
 		<div class="panel panel-primary">
 			<div class="panel-heading">RECOMMENDED DEVICES</div>
-
 			<div class="panel-body">
-				<br>
-				<br>
-				<br>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('1');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=1">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-				<table align="center">
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('1');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=1">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('5');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=5">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=5" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('5');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=5">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=5" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
+				<div class="col-sm-4" align="left">
+					<?php
+					$array = array();
+					$array = getDevice('13');
+					?>
+					<a href="../pages/Devices/showDevice.php?id=13">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageDevice.php?id=13" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('9');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=9">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=9" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-						<div class="fontprize" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>
+				<div class="col-sm-6" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('8');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=8">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=8" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-				</table>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
 
-				<table align="center">
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('13');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=13">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=13" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
+				<div class="col-sm-6" align="left">
+					<?php
+					$array = array();
+					$array = getSmartLifeService('7');
+					?>
+					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=7">
+						<div class="imagenWithButton" align="center">
+							<img class="img-noborder" src="../php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
+						</div> 
+					</a>
 
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
+					<div class="itemfont" ><p>
+						<?php echo $array[0] ?></p>
+					</div>
+					<div class="fontprize" ><p>
+						<?php echo $array[1] + 100 ; ?> € </p>
+					</div>
+					<div class="fontprizereal" ><p>
+						<?php echo $array[1] ; ?> € </p>
+					</div>
+				</div>
+			</div>
+		</div> 
 
-						<div class="fontprize" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>		
-					<td> 
-						<?php
-						$array = array();
-						$array = getDevice('19');
-						?>
-						<a href="../pages/Devices/showDevice.php?id=19">
-							<div class="imagenWithButton" align="center">
-								<img class="img-noborder" src="../php/getImageDevice.php?id=19" style="width:300px;height:250px" alt="Promotion">
-							</div> 
-						</a>
-
-						<div class="itemfont" ><p>
-							<?php echo $array[0] ?></p>
-						</div>
-
-						<div class="fontprize" ><p>
-							<?php echo $array[1] ; ?> € </p>
-						</div>
-					</td>			
-				</table>
-
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-
+		<!-- Load footer -->
+		<div class="footer" align="center">
+			<div class="col-sm-3">
+				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
+				<img class="img-responsive" src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+			</div>
+			<div class="col-sm-3">
+				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
+			</div>
+			<div class="col-sm-3">
+				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+			</div>
+			<div class="col-sm-3">
+				<p class="text-copyright">© 2016 Politecnico di Milano</p>
 			</div>
 		</div>
-
-
 	</body>
-
-
-
-	<br>
-	<br>
-	<br>
-	<br>
-
-	<!-- Load footer -->
-	<div class="footer" align="center">
-		<div class="col-sm-3">
-			<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-			<img class="img-responsive" src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-		</div>
-		<div class="col-sm-3">
-			<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
-		</div>
-		<div class="col-sm-3">
-			<a href="../infoRequest.php" class="text-request-info">Request Info</a>
-		</div>
-		<div class="col-sm-3">
-			<p class="text-copyright">© 2016 Politecnico di Milano</p>
-		</div>
-	</div>
 </html>
 

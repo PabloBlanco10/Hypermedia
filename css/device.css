@@ -1,6 +1,5 @@
 .textDevice{
 	text-align: center;
-	width: 360px;
 	height: 80px;
 	font-weight: 700;
 	font-size: 42px;
@@ -9,17 +8,20 @@
 	font-family: monospace;
 }
 
-div.recommended{
+.recommended{
 	text-align: center;
 	font-family: monospace;
 	font-size: 26px;
-	position: absolute;
+	position: relative;
+	margin-top:3%;
 	bottom: 1%;
 	border-style: outset;
-	border-color: lightblue;
+	border-color: black;
+	background-color:lightgoldenrodyellow;
 	padding: 1% 1%;
 
 }
+
 .panel {
 	margin-top: 4%;
 	margin-right: 3%;
@@ -33,7 +35,6 @@ div.recommended{
 
 .prizefont{
 	text-align: center;
-	width: 170px;
 	height: 40px;
 
 	font-weight: 700;
@@ -55,22 +56,10 @@ div.recommended{
 	margin-bottom: 20px;
 }
 
-.textCharacteristics {
-	width: 450px;
-	text-align: left;
-	position: absolute;
-	margin-left: 30px;
-}
-
 .textDetails{
-	width: 450px;
-	position: absolute;
-	margin-left: 20px;
 }
 
 .Details{
-	margin-left: 150px;
-	margin-right: auto;
 	font-size: 16px;
 	margin-top: 75px;
 	margin-bottom: 75px;
@@ -80,10 +69,15 @@ div.recommended{
 	padding: 25px;
 }
 
+.textCharacteristics {
+	text-align: left;
+	position: absolute;
+	margin-left: 30px;
+}
+
 .Characteristics{
 	margin-left: auto;
 	margin-right: auto;
-	width: 350px;
 	font-size: 16px;
 	margin-top: 100px;
 	margin-bottom: 100px;

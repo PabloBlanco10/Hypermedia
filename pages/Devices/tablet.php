@@ -76,34 +76,29 @@
 			<li><a href="outlet.php">OUTLET</a></li>
 
 		</ul>
-		<br>
-		<br>
-		<br>
-
-		<table align="center">
-			<td> 		
-				<a href="../Devices/Tablet/ipad.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/ipads.png" style="width:585px;height:400px" alt="Smartphones">
-						<h3>iPads</h3>
-					</div>
-				</a> 
-			</td>
-			<td>
-				<a href="#">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/tablets.jpg" style="width:585px;height:400px" alt="Smartphones">
-						<h3>Samsung</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
 
 
-		<br>
-		<br>
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<div class="col-sm-6" align="center">
+					<a href="../Devices/Tablet/ipad.php">
+						<div class="imagenWithButton" align="center">
+							<img class="img-responsive" src="../../img/ipads.png" style="width:585px;height:400px" alt="Smartphones">
+							<h3>iPads</h3>
+						</div>
+					</a> 
+				</div>
 
-
+				<div class="col-sm-6">
+					<a href="#">
+						<div class="imagenWithButton" align="center">
+							<img class="img-responsive" src="../../img/tablets.jpg" style="width:585px;height:400px" alt="Smartphones">
+							<h3>Samsung</h3>	
+						</div> 
+					</a>
+				</div>
+			</div>
+		</div>
 
 		<!-- Load footer -->
 		<br>

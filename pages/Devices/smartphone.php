@@ -76,69 +76,64 @@
 			<li><a href="outlet.php">OUTLET</a></li>
 
 		</ul>
-		<br>
-		<br>
-		<br>
 
-		<table align="center">
-			<td> 		
-				<a href="Smartphone/iphone.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/iphone.png" style="width:585px;height:300px" alt="Smartphones">
-						<h3>iPhone</h3>
-					</div>
-				</a> 
-			</td>
-			<td>
-				<a href="Smartphone/samsung.php">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/samsung.png" style="width:585px;height:300px" alt="Smartphones">
-						<h3>Samsung</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<div class="col-sm-6" align="center">
+					<a href="Smartphone/iphone.php">
+						<div class="imagenWithButton">
+							<img class="img-responsive" src="../../img/iphone.png" style="width:585px;height:300px" alt="Smartphones">
+							<h3>iPhone</h3>
+						</div>
+					</a> 
+				</div>
 
-		<table align="center">
-			<td> 
-				<a href="#">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/microsoft.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>Microsoft</h3>	
-					</div> 
-				</a>
-			</td>
-			<td>
-				<a href="#">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/nokia.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>Nokia</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
-		<table align="center">
-			<td> 
-				<a href="#">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/huawei.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>Huawei</h3>	
-					</div> 
-				</a>
-			</td>
-			<td>
-				<a href="#">
-					<div class="imagenWithButton" align="center">
-						<img class="img-responsive" src="../../img/lg.jpg" style="width:585px;height:300px" alt="Smartphones">
-						<h3>LG</h3>	
-					</div> 
-				</a>
-			</td>
-		</table>
+				<div class="col-sm-6">
+					<a href="Smartphone/samsung.php">
+						<div class="imagenWithButton" align="center">
+							<img class="img-responsive" src="../../img/samsung.png" style="width:585px;height:300px" alt="Smartphones">
+							<h3>Samsung</h3>	
+						</div> 
+					</a>
+				</div>
 
-		<br>
-		<br>
+				<div class="col-sm-6">
+					<a href="#">
+						<div class="imagenWithButton" align="center">
+							<img class="img-responsive" src="../../img/microsoft.jpg" style="width:585px;height:300px" alt="Smartphones">
+							<h3>Microsoft</h3>	
+						</div> 
+					</a>
+				</div>
 
+				<div class="col-sm-6">
+					<a href="#">
+						<div class="imagenWithButton" align="center">
+							<img class="img-responsive" src="../../img/nokia.jpg" style="width:585px;height:300px" alt="Smartphones">
+							<h3>Nokia</h3>	
+						</div> 
+					</a>
+				</div>
+
+				<div class="col-sm-6">
+					<a href="#">
+						<div class="imagenWithButton" align="center">
+							<img class="img-responsive" src="../../img/huawei.jpg" style="width:585px;height:300px" alt="Smartphones">
+							<h3>Huawei</h3>	
+						</div> 
+					</a>
+				</div>
+
+				<div class="col-sm-6">
+					<a href="#">
+						<div class="imagenWithButton" align="center">
+							<img class="img-responsive" src="../../img/lg.jpg" style="width:585px;height:300px" alt="Smartphones">
+							<h3>LG</h3>	
+						</div> 
+					</a>
+				</div>
+			</div>
+		</div>
 
 
 		<!-- Load footer -->

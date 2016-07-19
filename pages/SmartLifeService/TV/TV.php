@@ -79,80 +79,79 @@
 
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
-				<table align="center">
-					<td> 
-						<a href="../Device/GenericDevice.php?id=1">
-							<div class="imagenWithButton" align="center" style="margin-top: 30px;">
-								<?php
-								$array = array();
-								$array = getSmartLifeService('1');
-								?>
-								<img class="img-responsive" src="../../../php/getImageSmart.php?id=1" style="width:300px;height:225px" alt="TIM-Vision" align="center">
-								<figcaption class="textFurtherDetails">
-									<?php echo $array[7]; ?>
-								</figcaption>
-								<figcaption class="textFigure">
-									<?php echo $array[0]; ?>
-								</figcaption>
-							</div> 
-						</a>
-					</td>
-					<td> 
-						<a href="../Device/GenericDevice.php?id=2">
-							<div class="imagenWithButton" align="center"
-								  style="margin-top: 30px;">
-								<?php
-								$array = array();
-								$array = getSmartLifeService('2');
-								?>
-								<img class="img-responsive" src="../../../php/getImageSmart.php?id=2" style="width:300px;height:225px" alt="TIM Sky" align="center">
-								<figcaption class="textFurtherDetails">
-									<?php echo $array[7]; ?>
-								</figcaption>
-								<figcaption class="textFigure">
-									<?php echo $array[0]; ?>
-								</figcaption>
-							</div> 
-						</a>
-					</td>
-				</table>
+				<br>
+				<div class="col-sm-6">
+					<a href="../Device/GenericDevice.php?id=1">
+						<div class="imagenWithButton" align="center" style="margin-top: 30px;">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('1');
+							?>
+							<img class="img-responsive" src="../../../php/getImageSmart.php?id=1" style="width:300px;height:225px" alt="TIM-Vision" align="center">
+							<figcaption class="textFurtherDetails">
+								<?php echo $array[7]; ?>
+							</figcaption>
+							<figcaption class="textFigure">
+								<?php echo $array[0]; ?>
+							</figcaption>
+						</div> 
+					</a>
+				</div>
 
-				<table align="center">
-					<td> 
-						<a href="../Device/GenericDevice.php?id=3">
-							<div class="imagenWithButton" align="center">
-								<?php
-								$array = array();
-								$array = getSmartLifeService('3');
-								?>
-								<img class="img-responsive" src="../../../php/getImageSmart.php?id=3" style="width:300px;height:225px" alt="ChromeCast" align="center">
-								<figcaption class="textFurtherDetails">
-									<?php echo $array[7]; ?>
-								</figcaption>
-								<figcaption class="textFigure">
-									<?php echo $array[0]; ?>
-								</figcaption>
-							</div> 
-						</a>
-					</td>
-					<td> 
-						<a href="../Device/GenericDevice.php?id=4">
+				<div class="col-sm-6">
+					<a href="../Device/GenericDevice.php?id=2">
+						<div class="imagenWithButton" align="center"
+							  style="margin-top: 30px;">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('2');
+							?>
+							<img class="img-responsive" src="../../../php/getImageSmart.php?id=2" style="width:300px;height:225px" alt="TIM Sky" align="center">
+							<figcaption class="textFurtherDetails">
+								<?php echo $array[7]; ?>
+							</figcaption>
+							<figcaption class="textFigure">
+								<?php echo $array[0]; ?>
+							</figcaption>
+						</div> 
+					</a>
+				</div>
+
+				<div class="col-sm-6">
+					<a href="../Device/GenericDevice.php?id=3">
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('3');
+							?>
+							<img class="img-responsive" src="../../../php/getImageSmart.php?id=3" style="width:300px;height:225px" alt="ChromeCast" align="center">
+							<figcaption class="textFurtherDetails">
+								<?php echo $array[7]; ?>
+							</figcaption>
+							<figcaption class="textFigure">
+								<?php echo $array[0]; ?>
+							</figcaption>
+						</div> 
+					</a>
+				</div>
+
+				<div class="col-sm-6">
+					<a href="../Device/GenericDevice.php?id=4">
+						<div class="imagenWithButton" align="center">
 							<?php
 							$array = array();
 							$array = getSmartLifeService('4');
 							?>
-							<div class="imagenWithButton" align="center">
-								<img class="img-responsive" src="../../../php/getImageSmart.php?id=4" style="width:300px;height:225px" alt="NetFlix" align="center">
-								<figcaption class="textFurtherDetails">
-									<?php echo $array[7]; ?>
-								</figcaption>
-								<figcaption class="textFigure">
-									<?php echo $array[0]; ?>
-								</figcaption>
-							</div> 
-						</a>
-					</td>
-				</table>
+							<img class="img-responsive" src="../../../php/getImageSmart.php?id=4" style="width:300px;height:225px" alt="ChromeCast" align="center">
+							<figcaption class="textFurtherDetails">
+								<?php echo $array[7]; ?>
+							</figcaption>
+							<figcaption class="textFigure">
+								<?php echo $array[0]; ?>
+							</figcaption>
+						</div> 
+					</a>
+				</div>
 			</div>
 		</div>
 

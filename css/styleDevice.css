@@ -65,11 +65,10 @@ div.fontprize{
 	left: 30%; 
 	color:black;
 	background-color: white;
-	padding: 10px 20px;
 	border-style: solid;
 	font-family: monospace;
 	opacity: 0.8;
-	margin-top: -1px;
+	margin-top: 10px;
 }
 
 ul.pagination{
