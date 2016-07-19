@@ -129,6 +129,37 @@
 			<div class="panel-body" align="center">
 				<div class="textDevice"><p><?php echo $array[0]; ?></p></div>
 
+
+
+				<div class="col-sm-6">
+					<div class="Device" align="center">
+						<img class="img-dev img-responsive" src="../../php/getImageDevice.php?id=<?php echo $id ?>" style="width:330px;height:300px" alt="Device" align="center">
+					</div> 
+				</div>
+
+				<div class="col-sm-6">
+					<?php if($array[3] != null) : ?>
+					<h1 class="textCharacteristics">Characteristics</h1>
+					<div class="Characteristics" align="left">
+						<ul>
+							<?php echo $array[3]; ?>
+						</ul> 
+					</div> 
+					<?php endif; ?>
+				</div>
+
+				<?php if($array[1] != null) : ?>
+				<table align="center">
+					<td>
+						<div class="textBuy"><p>BUY ME</p></div>
+					</td>
+					<td>
+						<a href="../BuyMe.php">
+							<div class="prizefont"><p><?php echo $array[1]; ?> €</p></div>
+						</a>
+					</td>
+				</table>
+				<?php endif; ?>
 				<?php
 				$array = array();
 				$array = getSmartLifeService('6');
@@ -168,37 +199,6 @@
 
 				</div>
 
-				<table align="center">
-					<td> 
-						<div class="Device" align="center">
-							<img class="img-dev" src="../../php/getImageDevice.php?id=<?php echo $id ?>" style="width:330px;height:300px" alt="Device" align="center">
-						</div> 
-					</td>
-					<?php if($array[3] != null) : ?>
-					<td> 
-						<h1 class="textCharacteristics">Characteristics</h1>
-						<div class="Characteristics" align="left">
-							<ul>
-								<?php echo $array[3]; ?>
-							</ul> 
-						</div> 
-					</td>
-					<?php endif; ?>
-				</table>
-
-				<?php if($array[1] != null) : ?>
-				<table align="center">
-					<td>
-						<div class="textBuy"><p>BUY ME</p></div>
-					</td>
-					<td>
-						<a href="../BuyMe.php">
-							<div class="prizefont"><p><?php echo $array[1]; ?> €</p></div>
-						</a>
-					</td>
-				</table>
-				<?php endif; ?>
-
 				<?php if($array[4] != null) : ?>
 				<table align="left">
 					<hr>
@@ -213,18 +213,18 @@
 				</table>
 				<?php endif; ?>
 
-				<?php if($array[1] != null) : ?>
-				<table align="right">
-					<td>
-						<div class="textBuy"><p>BUY ME</p></div>
-					</td>
-					<td>
-						<a href="../BuyMe.php">
-							<div class="prizefont"><p><?php echo $array[1]; ?> €</p></div>
-						</a>
-					</td>
-				</table>
-				<?php endif; ?>
+				<!--<?php if($array[1] != null) : ?>
+<table align="right">
+<td>
+<div class="textBuy"><p>BUY ME</p></div>
+</td>
+<td>
+<a href="../BuyMe.php">
+<div class="prizefont"><p><?php echo $array[1]; ?> €</p></div>
+</a>
+</td>
+</table>
+<?php endif; ?>-->
 			</div>
 		</div>
 

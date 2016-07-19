@@ -64,104 +64,96 @@
 	<body>
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
-				<form class="form-horizontal" role="form">
+				<h1 style="color:blue;">WE ARE GLAD THAT YOU DECIDE TO BUY IT</h1>
+
+				<div class="col-sm-5">
+					<div class="InformationAboutYou">
+						<h2>Information about you</h2>
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="name">Name:</label>
+							<div class="col-sm-10">
+								<input type="name" class="form-control" id="name" placeholder="Insert your name...">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="email">E-Mail:</label>
+							<div class="col-sm-10">
+								<input type="email" class="form-control" id="email" placeholder="Insert your email...">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="phone">Phone:</label>
+							<div class="col-sm-10">
+								<input type="phone" class="form-control" id="phone" placeholder="Insert your phone...">
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label class="control-label col-sm-3" for="phone">CardHolder:</label>
+							<div class="col-sm-10">
+								<input type="phone" class="form-control" id="phone" placeholder="Insert your CardHolder...">
+							</div>
+						</div>
+					</div>
+
+
+					<h2 style="margin-top:25px;">Where do we have to send it?</h2>
+					<div class="form-group" >
+						<label class="control-label col-sm-3" for="phone">Floor:</label>
+						<div class="col-sm-10">
+							<input type="phone" class="form-control" id="phone" placeholder="Insert your Floor...">
+						</div>
+					</div>
+
 					<div class="form-group">
-						<div class="control-label col-sm-10" id="infoRequest">
-							<h1>WE ARE GLAD THAT YOU DECIDE TO BUY IT</h1>
+						<label class="control-label col-sm-3" for="phone">Postal Code:</label>
+						<div class="col-sm-10">
+							<input type="phone" class="form-control" id="phone" placeholder="Insert your Postal Code...">
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="InformationCC">
+					<h2>Information about your Credit Card</h2>
+					<div class="form-group" style="margin-left:175px">
+						<label class="control-label col-sm-2" for="phone">Credit Card:</label>
+						<div class="col-sm-8">
+							<input type="phone" class="form-control" id="phone" placeholder="Insert your Credit Card...">
 						</div>
 					</div>
 
-					<table align="center">
-						<td align="left"> 
-							<div class="InformationAboutYou">
-								<h2>Information about you</h2>
-								<div class="form-group">
-									<label class="control-label col-sm-2" for="name">Name:</label>
-									<div class="col-sm-10">
-										<input type="name" class="form-control" id="name" placeholder="Insert your name...">
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label class="control-label col-sm-2" for="email">E-Mail:</label>
-									<div class="col-sm-10">
-										<input type="email" class="form-control" id="email" placeholder="Insert your email...">
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label class="control-label col-sm-2" for="phone">Phone:</label>
-									<div class="col-sm-10">
-										<input type="phone" class="form-control" id="phone" placeholder="Insert your phone...">
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label class="control-label col-sm-2" for="phone">CardHolder:</label>
-									<div class="col-sm-10">
-										<input type="phone" class="form-control" id="phone" placeholder="Insert your CardHolder...">
-									</div>
-								</div>
-							</div>
-						</td>
-						<td> 
-							<div class="Address" >
-								<h2>Where do we have to send it?</h2>
-								<div class="form-group" >
-									<label class="control-label col-sm-2" for="phone">Floor:</label>
-									<div class="col-sm-10">
-										<input type="phone" class="form-control" id="phone" placeholder="Insert your Floor...">
-									</div>
-								</div>
-
-								<div class="form-group">
-									<label class="control-label col-sm-2" for="phone">Postal Code:</label>
-									<div class="col-sm-10">
-										<input type="phone" class="form-control" id="phone" placeholder="Insert your Postal Code...">
-									</div>
-								</div>
-							</div>
-						</td>
-					</table>
-
-					<div class="InformationCC">
-						<h2>Information about your Credit Card</h2>
-						<div class="form-group" style="margin-left:175px">
-							<label class="control-label col-sm-2" for="phone">Credit Card:</label>
-							<div class="col-sm-8">
-								<input type="phone" class="form-control" id="phone" placeholder="Insert your Credit Card...">
-							</div>
-						</div>
-
-						<div class="form-group" style="margin-left:175px">
-							<label class="control-label col-sm-2" for="phone">CVC:</label>
-							<div class="col-sm-8">
-								<input type="phone" class="form-control" id="phone" placeholder="Insert your CVC...">
-							</div>
-						</div>
-
-						<div class="form-group" style="margin-left:175px">
-							<label class="control-label col-sm-2" for="phone">Expire Date:</label>
-							<div class="col-sm-8">
-								<input type="phone" class="form-control" id="phone" placeholder="Insert your Expire Date...">
-							</div>
-						</div>
-
-						<div class="form-group" style="margin-left:175px">
-							<label class="control-label col-sm-2" for="phone">Address:</label>
-							<div class="col-sm-8">
-								<input type="phone" class="form-control" id="phone" placeholder="Insert your Address...">
-							</div>
+					<div class="form-group" style="margin-left:175px">
+						<label class="control-label col-sm-2" for="phone">CVC:</label>
+						<div class="col-sm-8">
+							<input type="phone" class="form-control" id="phone" placeholder="Insert your CVC...">
 						</div>
 					</div>
-					<div class="form-group">
-						<div class="col-sm-offset-2 col-sm-10">
-							<a href="../../index.php" class="btn btn-default">BACK</a>
-							<!-- El boton SEND te lleva a HOME -->
-							<a href="index.php" class="btn btn-default prizefont">BUY IT</a>
+
+					<div class="form-group" style="margin-left:175px">
+						<label class="control-label col-sm-2" for="phone">Expire Date:</label>
+						<div class="col-sm-8">
+							<input type="phone" class="form-control" id="phone" placeholder="Insert your Expire Date...">
 						</div>
 					</div>
-				</form>
+
+					<div class="form-group" style="margin-left:175px">
+						<label class="control-label col-sm-2" for="phone">Address:</label>
+						<div class="col-sm-8">
+							<input type="phone" class="form-control" id="phone" placeholder="Insert your Address...">
+						</div>
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<a href="../../index.php" class="btn btn-default">BACK</a>
+						<!-- El boton SEND te lleva a HOME -->
+						<a href="index.php" class="btn btn-default prizefont">BUY IT</a>
+					</div>
+				</div>
 			</div>
 		</div>
 

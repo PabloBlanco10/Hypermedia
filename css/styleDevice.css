@@ -20,7 +20,7 @@ figcaption.textFigure{
 	margin-top: 4%;
 }
 .imagenDetails{
-	position:absolute;
+		position:absolute;
 	margin-top: -150px; 
 	right: 13%;
 }
@@ -44,7 +44,7 @@ div.itemfont{
 	font-family: monospace;
 	position: absolute;
 	margin-top: -220px;
-	left: 600px;
+	left: 60%;
 	margin-left: auto;
 	color:black;
 	font-size: 30px;
@@ -54,7 +54,7 @@ div.fontprize{
 	font-family: monospace;
 	position: absolute;
 	margin-top: -100px;
-	left: 700px;
+	left: 60%;
 	margin-left: auto;
 	color:red;
 	font-size: 30px;

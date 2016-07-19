@@ -58,13 +58,13 @@
 		</div>
 	</div>
 
-		
+
 	<?php
 	$id = $_GET['id'];
 	$array = array();
 	$array = getSmartLifeService($id);
 	?>
-	
+
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
 		<a href="../../index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
@@ -104,32 +104,25 @@
 
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
-				<div class="textDevice"><p><?php echo $array[0]; ?></p></div>
 
-				<div class="recommended" align="left">
-				<a href="../../Recommended.php">
-				<p>Recommended<br>Devices</p>
-				</a>	
+				<div class="col-sm-12">
+					<div class="textDevice"><p><?php echo $array[0]; ?></p></div>
 				</div>
-				
-				<table align="center">
-					<td> 
-						
-						<div class="Device" align="center">
-							<img class="img-noborder" src="../../../php/getImageSmart.php?id=<?php echo $id ?>" style="width:330px;height:300px" alt="SamsungGearS2" align="center">
-						</div> 
-					</td>
+
+				<div class="col-sm-6">
+					<div class="Device">
+						<img class="img-noborder img-responsive" src="../../../php/getImageSmart.php?id=<?php echo $id ?>" style="width:330px;height:300px" alt="SamsungGearS2" align="center">
+					</div>
+				</div>
+
+				<div class="col-sm-6">
 					<?php if($array[3] != null) : ?>
-					<td> 
-						<h1 class="textCharacteristics">Characteristics</h1>
-						<div class="Characteristics" align="left">
-							<ul>
-								<?php echo $array[3]; ?>
-							</ul> 
-						</div> 
-					</td>
+					<h1 class="textCharacteristics">Characteristics</h1>
+					<div class="Characteristics">
+						<?php echo $array[3]; ?> 
+					</div> 
 					<?php endif; ?>
-				</table>
+				</div>
 
 				<?php if($array[1] != null) : ?>
 				<table align="center">
@@ -143,21 +136,28 @@
 					</td>
 				</table>
 				<?php endif; ?>
-	
-				
-				<?php if($array[4] != null) : ?>
-				<table align="left">
+
+				<div class="col-sm-12 recommended">
+					<a href="../../Recommended.php">
+						<p>Our Recommended<br>Devices</p>
+					</a>	
+				</div>
+
+				<div class="col-sm-12">
 					<hr>
-					<td>
-						<h1 class="textDetails" align="left">Details</h1>
-						<div class="Details" align="left">
-							<ul>
-								<?php echo $array[4]; ?>
-							</ul> 
-						</div> 	
-					</td>
-				</table>
-				<?php endif; ?>
+					<h1 class="textDetails" align="left">Details</h1>
+				</div>
+				<div class="col-sm-12">
+					<?php if($array[4] != null) : ?>
+					<div class="Details" align="left">
+						<ul>
+							<?php echo $array[4]; ?>
+						</ul> 
+					</div> 	
+					<?php endif; ?>	
+				</div>
+
+
 
 				<?php if($array[5] != null) : ?>
 				<table align="left">
@@ -173,7 +173,7 @@
 				<?php endif; ?>
 
 				<?php if($array[1] != null) : ?>
-				<table align="right">
+				<table align="center">
 					<td>
 						<div class="textBuy"><p>BUY ME</p></div>
 					</td>

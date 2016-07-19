@@ -65,25 +65,52 @@
 
 	<!-- Body -->
 	<body>
-		<div class="row">
-			<img src="../img/iphone6.JPG"
-				  style="width:585px;height:300px" alt="Iphone6"/>
-			<img src="../img/640x480_MayS7.jpg"
-				  style="width:585px;height:300px" alt="Tablets"/>
+		<br>
+		<div class="panel panel-default">
+			<div class="panel-body" align="center">
+				<div class="col-sm-12" style="margin-bottom:30px;">
+					<a href="Device/GenericDevice.php?id=8">
+						<img src="../img/iphone6.JPG" class="img-responsive" style="width:1300px;height:500px" alt="Iphone6"/>
+					</a>
+				</div>
+				<br>
+
+				<div class="col-sm-6" style="margin-bottom:30px;">
+					<a href="#">
+						<img src="../img/640x480_MayS7.jpg"  class="img-responsive"
+							  style="width:585px;height:300px" alt="Tablets"/>
+					</a>
+				</div>
+
+				<div class="col-sm-6" style="margin-bottom:30px;"	>
+					<a href="#">
+						<img src="../img/iphone6.JPG" class="img-responsive"
+							  style="width:585px;height:300px" alt="Iphone6"/>
+					</a>
+				</div>
+				
+				<div class="col-sm-3">
+					<a href="#">
+						RECOMMENDED DEVICE
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#">
+						LAST AWARD
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#">
+						OUR HISTORY
+					</a>
+				</div>
+				<div class="col-sm-3">
+					<a href="#">
+						FREQUENTLY QUESTIONS
+					</a>
+				</div>
+			</div>
 		</div>
-
-
-		<div class="row">
-			<img src="../img/Networking%20(1).jpg"
-				  style="width:585px;height:300px" alt="Networking"/>
-			<img src="../img/tvsmartliving.jpg"
-				  style="width:585px;height:300px" alt="TvSmartiliving"/>
-		</div>
-
-		<div class="row">
-			<img src="../img/outlet.jpg"
-				  style="width:1175px;height:300px" alt="Outlet"/>
-		</div> 
 
 		<!-- Load footer -->
 		<br>
