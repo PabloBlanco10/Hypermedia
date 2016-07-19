@@ -119,7 +119,7 @@ ul.pagination{
 .panel-heading{
 	font-size: 30px;
 	text-align: center ;
-		font-family: monospace;
+	font-family: monospace;
 
 }
 div.itemfont{
@@ -146,6 +146,12 @@ a.sendButton{
 
 div#infoRequest{
 	color:dodgerblue;
+}
+
+@media screen and (max-width: 750px) {
+	body {
+		margin-top: 50%;
+	}
 }
 
 /** Breadcrumbs **/

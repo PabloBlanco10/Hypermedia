@@ -66,6 +66,7 @@
 			<div class="panel-body" align="center">
 				<h1 style="color:blue;">WE ARE GLAD THAT YOU DECIDE TO BUY IT</h1>
 
+				<!-- Information about you -->
 				<div class="col-sm-5">
 					<div class="InformationAboutYou">
 						<h2>Information about you</h2>
@@ -97,8 +98,10 @@
 							</div>
 						</div>
 					</div>
+				</div>
 
-
+				<!-- Address -->
+				<div class="col-sm-5">
 					<h2 style="margin-top:25px;">Where do we have to send it?</h2>
 					<div class="form-group" >
 						<label class="control-label col-sm-3" for="phone">Floor:</label>
@@ -115,40 +118,42 @@
 					</div>
 				</div>
 
-
-
-				<div class="InformationCC">
-					<h2>Information about your Credit Card</h2>
-					<div class="form-group" style="margin-left:175px">
-						<label class="control-label col-sm-2" for="phone">Credit Card:</label>
-						<div class="col-sm-8">
+				<!-- Address -->
+				<div class="col-sm-6">
+					<h2 style="margin-top:25px;">Information about your Credit Card</h2>
+					<div class="form-group">
+						<label class="control-label col-sm-3" for="phone">Credit Card:</label>
+						<div class="col-sm-10">
 							<input type="phone" class="form-control" id="phone" placeholder="Insert your Credit Card...">
 						</div>
 					</div>
 
-					<div class="form-group" style="margin-left:175px">
-						<label class="control-label col-sm-2" for="phone">CVC:</label>
-						<div class="col-sm-8">
+					<div class="form-group">
+						<label class="control-label col-sm-3" for="phone">CVC:</label>
+						<div class="col-sm-10">
 							<input type="phone" class="form-control" id="phone" placeholder="Insert your CVC...">
 						</div>
 					</div>
 
-					<div class="form-group" style="margin-left:175px">
-						<label class="control-label col-sm-2" for="phone">Expire Date:</label>
-						<div class="col-sm-8">
+					<div class="form-group">
+						<label class="control-label col-sm-3" for="phone">Expire Date:</label>
+						<div class="col-sm-10">
 							<input type="phone" class="form-control" id="phone" placeholder="Insert your Expire Date...">
 						</div>
 					</div>
 
-					<div class="form-group" style="margin-left:175px">
-						<label class="control-label col-sm-2" for="phone">Address:</label>
-						<div class="col-sm-8">
+					<div class="form-group">
+						<label class="control-label col-sm-3" for="phone">Address:</label>
+						<div class="col-sm-10">
 							<input type="phone" class="form-control" id="phone" placeholder="Insert your Address...">
 						</div>
 					</div>
 				</div>
+
+				<!-- Credit Card -->
+
 				<div class="form-group">
-					<div class="col-sm-offset-2 col-sm-10">
+					<div class="col-sm-10">
 						<a href="../../index.php" class="btn btn-default">BACK</a>
 						<!-- El boton SEND te lleva a HOME -->
 						<a href="index.php" class="btn btn-default prizefont">BUY IT</a>
