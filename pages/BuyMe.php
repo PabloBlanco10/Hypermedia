@@ -68,7 +68,7 @@
 
 				<!-- Information about you -->
 				<div class="col-sm-5">
-					<div class="InformationAboutYou">
+					<div class="InformationAboutYou" style="margin-top:25px;">
 						<h2>Information about you</h2>
 						<div class="form-group">
 							<label class="control-label col-sm-3" for="name">Name:</label>

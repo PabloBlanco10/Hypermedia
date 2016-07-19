@@ -75,7 +75,6 @@
 			<li><a href="Person.php">PERSON</a></li>
 		</ul>
 
-
 		<table align="center" style="margin-top:50px">
 			<td> 		
 				<div class="textLeft"><p>Check out or last wearables. Find out how health and wellness can positively change your life. Free your desire to move. Share your results with friends. The future is smart.</p>

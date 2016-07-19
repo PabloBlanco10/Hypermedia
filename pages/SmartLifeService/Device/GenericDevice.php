@@ -117,10 +117,14 @@
 
 				<div class="col-sm-6">
 					<?php if($array[3] != null) : ?>
-					<h1 class="textCharacteristics">Characteristics</h1>
-					<div class="Characteristics">
-						<?php echo $array[3]; ?> 
-					</div> 
+					<div class="col-sm-12">
+						<h1 style="text-align:justify; text-justify: inter-word;">Characteristics</h1>
+					</div>
+					<div class="col-sm-12">
+						<div class="Characteristics" style="text-align:justify; text-justify: inter-word;">
+							<?php echo $array[3]; ?> 
+						</div> 
+					</div>
 					<?php endif; ?>
 				</div>
 
@@ -145,11 +149,11 @@
 
 				<div class="col-sm-12">
 					<hr>
-					<h1 class="textDetails" align="left">Details</h1>
+					<h1>Details</h1>
 				</div>
 				<div class="col-sm-12">
 					<?php if($array[4] != null) : ?>
-					<div class="Details" align="left">
+					<div class="Details" style="text-align:justify; text-justify: left;">
 						<ul>
 							<?php echo $array[4]; ?>
 						</ul> 
@@ -160,10 +164,10 @@
 
 
 				<?php if($array[5] != null) : ?>
-				<table align="left">
+				<table>
 					<td>
 						<h1 class="textDetails">How To Use it</h1>
-						<div class="Details" align="left">
+						<div class="Details">
 							<ul>
 								<?php echo $array[5]; ?>
 							</ul> 
@@ -173,7 +177,7 @@
 				<?php endif; ?>
 
 				<?php if($array[1] != null) : ?>
-				<table align="center">
+				<table>
 					<td>
 						<div class="textBuy"><p>BUY ME</p></div>
 					</td>
