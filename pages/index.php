@@ -126,24 +126,17 @@
 			</div>
 		</div>
 
-		<div class="panel panel-default">
-
-			<div class="col-sm-12" style="margin-bottom:20%">
-
-				<a href="outlet.php">
-					<img src="../img/out.jpg" class="img-responsive"
-						  style="width:1300px;height:250px" alt="Iphone6" align="center"/>
-				</a>
-			</div>
+		<br>
+		<div class="col-sm-12" align="center" style="margin-bottom:2%;">
+			<a href="Devices/Outlet.php">
+				<div align="center" >
+					<img class="img-noborder img-responsive" src="../img/out.jpg" style="width:1300px;height:350px" alt="Promotion">
+				</div> 
+			</a>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+
 		<div class="panel panel-default">
-			<div class="panel-body" align="center" style="font-size: 22px;font-family: monospace; background-color:firebrick">
+			<div class="panel-body" align="center" style="font-size: 22px;font-family: monospace; background-color:darkblue">
 
 				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
 					<a href="AssistanceService/Highlights.php">
