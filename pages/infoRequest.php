@@ -30,7 +30,7 @@
 	<nav class="navbar navbar-inverse" style="background-color:darkblue;" style="position:fixed">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.php"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
+				<a href="../index.php"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -100,9 +100,9 @@
 
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<a href="index.php" class="btn btn-default">HOME</a>
+							<a href="../index.php" class="btn btn-default">HOME</a>
 							<!-- El boton SEND te lleva a HOME -->
-							<a href="index.php" class="btn btn-default sendButton">SEND</a>
+							<a href="../index.php" class="btn btn-default sendButton">SEND</a>
 						</div>
 					</div>
 				</form>

@@ -29,7 +29,7 @@
 	<nav class="navbar navbar-inverse" style="background-color:darkblue;" style="position:fixed">
 		<div class="container-fluid">
 			<div class="navbar-header">
-				<a href="index.php"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
+				<a href="../index.php"><img id="logo" src="../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
@@ -58,7 +58,7 @@
 
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
-		<a href="index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
+		<a href="../index.php" class="btn btn-default"><i class="glyphicon glyphicon-home"></i> HOME</a> 
 		<a href="smartLife.php" class="btn btn-default">ASSISTANCE SERVICE</a>
 	</div>
 
