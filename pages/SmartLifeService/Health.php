@@ -75,17 +75,17 @@
 			<li><a href="Person.php">PERSON</a></li>
 		</ul>
 
-		<table align="center" style="margin-top:50px">
-			<td> 		
+		<div style="margin-top:50px">
+			<div class="col-sm-3">		
 				<div class="textLeft"><p>Check out or last wearables. Find out how health and wellness can positively change your life. Free your desire to move. Share your results with friends. The future is smart.</p>
 				</div>
-			</td>	
-			<td> 		
+			</div>	
+			<div class="col-sm-9"> 		
 				<div class="imagenWithButton" align="center">
-					<img class="img-responsive" src="../../img/corriendo.jpg" style="width:730px;height:330px" alt="TvEnterteiment" align="center">
+					<img class="img-responsive" src="../../img/corriendo.jpg" style="width:830px;height:330px" alt="TvEnterteiment" align="center">
 				</div> 
-			</td>
-		</table>
+			</div>
+		</div	>
 
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">

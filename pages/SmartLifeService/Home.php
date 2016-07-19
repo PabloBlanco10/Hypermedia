@@ -76,52 +76,54 @@
 			<li><a href="Person.php">PERSON</a></li>
 		</ul>
 
-
-		<table align="center" style="margin-top:50px">	
-			<td> 		
-				<div class="imagenWithButton" align="center">
-					<img class="img-responsive" src="../../img/Glenn-Layton-Homes-Connected.jpg" style="width:1000px;height:330px" alt="TvEnterteiment" align="center">
-					<h3 style="width:500px">Smart Life also means a simpler and safer life.</h3>
-				</div> 
-			</td>
-		</table>
-
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
+				<div class="col-sm-12" style="margin-top:1%">
+					<div class="imagenWithButton" align="center">
+						<img class="img-responsive" src="../../img/Glenn-Layton-Homes-Connected.jpg" style="width:1000px;height:330px" alt="TvEnterteiment" align="center">
+					</div> 
+				</div>
+				<div class="col-sm-12" style="margin-bottom:5%">
+					<div align="center">
+						<h3 class="personText">Smart Life also means a simpler and safer life.</h3>
+					</div> 
+				</div>
+				
+
 				<div class="col-sm-4">
 					<a href="Device/GenericDevice.php?id=9">
-					<div class="imagenWithButton" align="center">
-						<?php
-						$array = array();
-						$array = getSmartLifeService('9');
-						?>
-						<img class="img-responsive" src="../../php/getImageSmart.php?id=9" style="width:300px;height:200px" alt="TimTag" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
-					</div> 
-				</a>
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('9');
+							?>
+							<img class="img-responsive" src="../../php/getImageSmart.php?id=9" style="width:300px;height:200px" alt="TimTag" align="center"><figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						</div> 
+					</a>
 				</div>
 				<div class="col-sm-4">
 					<a href="Device/GenericDevice.php?id=10">
-					<div class="imagenWithButton" align="center">
-						<?php
-						$array = array();
-						$array = getSmartLifeService('10');
-						?>
-						<img class="img-responsive" src="../../php/getImageSmart.php?id=10" style="width:350px;height:200px" alt="House" align="center">
-						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
-					</div> 
-				</a>
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('10');
+							?>
+							<img class="img-responsive" src="../../php/getImageSmart.php?id=10" style="width:350px;height:200px" alt="House" align="center">
+							<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						</div> 
+					</a>
 				</div>
 				<div class="col-sm-4">
 					<a href="Device/GenericDevice.php?id=11">
-					<div class="imagenWithButton" align="center">
-						<?php
-						$array = array();
-						$array = getSmartLifeService('11');
-						?>
-						<img class="img-responsive" src="../../php/getImageSmart.php?id=11" style="width:300px;height:200px" alt="GalaxyGearFit" align="center">
-						<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
-					</div> 
-				</a>
+						<div class="imagenWithButton" align="center">
+							<?php
+							$array = array();
+							$array = getSmartLifeService('11');
+							?>
+							<img class="img-responsive" src="../../php/getImageSmart.php?id=11" style="width:300px;height:200px" alt="GalaxyGearFit" align="center">
+							<figcaption class="textFigure"><?php echo $array[0]; ?></figcaption>
+						</div> 
+					</a>
 				</div>
 			</div>
 		</div>
