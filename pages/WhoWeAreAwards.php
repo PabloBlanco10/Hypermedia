@@ -74,7 +74,7 @@
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
 				<br>
-				<div class="initialText" align="center">Nº1 FOR NETWORK COVERAGE </div>
+				<div class="initialTextWhoWeAre" align="center">Nº1 FOR NETWORK COVERAGE </div>
 				<div class="container">
 					<div class="row" align="center">
 						<div align="center">
@@ -93,7 +93,7 @@
 
 				<br>
 				<br>
-				<div class="initialText" align="center">Nº1 FOR NETWORK COVERAGE </div>
+				<div class="initialTextWhoWeAre" align="center">Nº1 FOR NETWORK COVERAGE </div>
 				<div class="container">
 					<div class="row" align="center">
 						<div align="center">
@@ -124,7 +124,7 @@
 				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
 			</div>
 			<div class="col-sm-3">
-				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+				<a href="infoRequest.php" class="text-request-info">Request Info</a>
 			</div>
 			<div class="col-sm-3">
 				<p class="text-copyright">© 2016 Politecnico di Milano</p>

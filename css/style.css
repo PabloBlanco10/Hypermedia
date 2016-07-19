@@ -111,6 +111,11 @@ h2 {
 	margin-top: 0;
 }
 
+.initialTextWhoWeAre{
+	color: cadetblue;
+	font-size: 35px;
+}
+
 /** ASSISTANCE SERVICE **/
 .buttonAskIt{
 	text-align: center;

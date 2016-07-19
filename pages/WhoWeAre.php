@@ -74,7 +74,7 @@
 		<div class="panel panel-default">
 			<div class="panel-body" align="center">
 				<div class="container">
-					<div class="initialText" align="center">A COMPANY WITH HUGE HISTORY </div>
+					<div class="initialTextWhoWeAre">A COMPANY WITH HUGE HISTORY </div>
 					<br>
 					<div class="row" align="center">
 						<div class="col-md-7">
@@ -171,7 +171,7 @@
 				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
 			</div>
 			<div class="col-sm-3">
-				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+				<a href="infoRequest.php" class="text-request-info">Request Info</a>
 			</div>
 			<div class="col-sm-3">
 				<p class="text-copyright">© 2016 Politecnico di Milano</p>

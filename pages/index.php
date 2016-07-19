@@ -26,7 +26,7 @@
 		<link rel="stylesheet" type="text/css" href="../css/style.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleHeader.css">
 		<link rel="stylesheet" type="text/css" href="../css/styleFooter.css">
-				<?php require_once '../php/ConnectionsDB.php'; ?>
+		<?php require_once '../php/ConnectionsDB.php'; ?>
 
 	</head>
 
@@ -68,7 +68,7 @@
 	<!-- Body -->
 	<body>
 		<br>
-		
+
 		<div class="panel panel-danger">
 			<div class="panel-heading">SEE OUR LAST PROMOTIONS</div>
 			<div class="panel-body">
@@ -79,7 +79,7 @@
 					?>
 					<a href="../pages/Devices/showDevice.php?id=1">
 						<div class="imagenWithButton" align="center">
-							<img class="img-noborder" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
+							<img class="img-noborder img-responsive" src="../php/getImageDevice.php?id=1" style="width:300px;height:250px" alt="Promotion">
 						</div> 
 					</a>
 
@@ -90,12 +90,12 @@
 
 				<div class="col-sm-4" align="left">
 					<?php
-					$array = array();
-					$array = getDevice('7');
+	$array = array();
+						$array = getDevice('7');
 					?>
 					<a href="../pages/Devices/showDevice.php?id=7">
 						<div class="imagenWithButton" align="center">
-							<img class="img-noborder" src="../php/getImageDevice.php?id=7" style="width:300px;height:250px" alt="Promotion">
+							<img class="img-noborder img-responsive" src="../php/getImageDevice.php?id=7" style="width:300px;height:250px" alt="Promotion">
 						</div> 
 					</a>
 
@@ -105,12 +105,12 @@
 				</div>
 				<div class="col-sm-4" align="left">
 					<?php
-					$array = array();
-					$array = getSmartLifeService('7');
+	$array = array();
+						$array = getSmartLifeService('7');
 					?>
 					<a href="../pages/SmartLifeService/Device/GenericDevice.php?id=7">
 						<div class="imagenWithButton" align="center">
-							<img class="img-noborder" src="../php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
+							<img class="img-noborder img-responsive" src="../php/getImageSmart.php?id=7" style="width:300px;height:250px" alt="Promotion">
 						</div> 
 					</a>
 
@@ -118,24 +118,22 @@
 						<?php echo $array[0] ?></p>
 					</div>
 
-		<br>
-		<br>
-		<br>
+					<br>
+					<br>
+					<br> 
 				</div>
 			</div>
 		</div>
-		
-		
-			<div class="panel panel-default">
+
+		<div class="panel panel-default">
 			<div class="panel-body" align="center">
-				
+
 				<div class="col-sm-6" style="margin-bottom:30px;"	>
 					<a href="../pages/Devices/showDevice.php?id=2">
 						<img src="../img/iphone6.JPG" class="img-responsive"
 							  style="width:580px;height:250px" alt="Iphone6" align="left"/>
 					</a>
 				</div>
-				
 
 				<div class="col-sm-6" style="margin-bottom:30px;">
 					<a href="../pages/Devices/showDevice.php?id=5">
@@ -143,35 +141,58 @@
 							  style="width:580px;height:250px" alt="Samsung"/>
 					</a>
 				</div>
-			
+
 			</div>
 		</div>
-		
-		
-		
+
+		<div class="panel panel-default">
+			<div class="panel-body" align="center" style="font-size: 22px;font-family: monospace; background-color:firebrick">
+
+				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
+					<a href="AssistanceService/Highlights.php">
+						FREQUENTLY QUESTIONS
+					</a>
+				</div>
+
+				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
+					<a href="WhoWeAreAwards.php">
+						AWARS
+					</a>
+				</div>
+
+				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
+					<a href="SmartLifeService/TV/TV.php">
+						TIM VISION
+					</a>
+				</div>
+
+				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
+					<a href="WhoWeAre.php">
+						HISTORY
+					</a>
+				</div>
+
+			</div>
+		</div>
 	</body>
+	<br>
 
-		
-	
 
-	
+	<!-- Load footer -->
 
-		<!-- Load footer -->
-		
-		<div class="footer" align="center">
-			<div class="col-sm-3">
-				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-				<img class="img-responsive" src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-			</div>
-			<div class="col-sm-3">
-				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
-			</div>
-			<div class="col-sm-3">
-				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
-			</div>
-			<div class="col-sm-3">
-				<p class="text-copyright">© 2016 Politecnico di Milano</p>
-			</div>
+	<div class="footer" align="center">
+		<div class="col-sm-3">
+			<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
+			<img class="img-responsive" src="../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
 		</div>
-
+		<div class="col-sm-3">
+			<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
+		</div>
+		<div class="col-sm-3">
+			<a href="infoRequest.php" class="text-request-info">Request Info</a>
+		</div>
+		<div class="col-sm-3">
+			<p class="text-copyright">© 2016 Politecnico di Milano</p>
+		</div>
+	</div>
 </html>
