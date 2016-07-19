@@ -50,8 +50,8 @@
 				</li>
 
 				<div class="container">
-					<a href="../../WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
-					<a href="../../MyTim.php"><div class="bottomright">MY TIM</div></a>
+					<a href="../WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
+					<a href="../MyTim.php"><div class="bottomright">MY TIM</div></a>
 				</div>
 
 			</ul>
