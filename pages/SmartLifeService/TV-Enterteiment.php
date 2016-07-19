@@ -27,33 +27,36 @@
 
 
 	<!-- Load header -->
-	<div class="header">	
-		<figure><a href="../index.php"><img id="logo" src="../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+	<nav class="navbar navbar-inverse" style="background-color:darkblue;" style="position:fixed">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="../index.php"><img id="logo" src="../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
 
-		<div align="center">		
-			<ul class="nav nav-tabs" id="landmarks">
-				<li><figure align="center"><a href="../device.php"><img src="../../img/Devices.jpg" id="device" alt="Device">
-					<figcaption>DEVICE</figcaption></a></figure>
-				</li>
+				<ul class="nav navbar-nav">
+					<li class="textHeader">
+						<a href="../device.php" style="color:blue">
+							<span class="glyphicon glyphicon-phone"></span>DEVICE
+						</a>
+					</li>
+					<li class="textHeader"><a href="../smartLife.php" style="color:blue"><span class="glyphicon glyphicon-globe"></span> SMART LIFE SERVICE</a></li>
+					<li class="textHeader"><a href="../assistanceService.php" style="color:blue"><span class="glyphicon glyphicon-question-sign"></span>ASSISTANCE SERVICE</a></li>
+				</ul>
 
-				<li>
-					<figure><a href="../smartLife.php"><img src="../../img/SL.jpg" id="smartlife" alt="Smart Life Service">
-						<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
-				</li>
-
-				<li>
-					<figure><a href="../assistanceService.php"><img src="../../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
-						<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
-				</li>
-
-				<div class="container">
-					<a href="../WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
-					<a href="../MyTim.php"><div class="bottomright">MY TIM</div></a>
-				</div>
-
-			</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="textHeader"><a href="../WhoWeAre.php" style="color:blue"><span class="glyphicon glyphicon-user"></span> WHO WE ARE</a></li>
+					<li class="textHeader"><a href="#" style="color:blue"><span class="glyphicon glyphicon-text-size"></span>IM</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
+	</nav>
+
 
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
@@ -74,7 +77,7 @@
 			<li><a href="Person.php">PERSON</a></li>
 		</ul>
 
-		
+
 		<table align="center" style="margin-top:50px">
 			<td> 		
 				<a href="TV/TV.php">
@@ -100,7 +103,7 @@
 				</a>
 			</td>
 		</table>
-		
+
 		<table align="center">
 			<td> 
 				<a href="#">
@@ -113,24 +116,23 @@
 				</a>
 			</td>
 		</table>
-
-		<!-- Load footer -->
-		<br>
-		<br>
-		<div class="footer" align="center">
-			<div class="col-sm-3">
-				<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
-				<img class="img-responsive" src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
-			</div>
-			<div class="col-sm-3">
-				<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
-			</div>
-			<div class="col-sm-3">
-				<a href="../infoRequest.php" class="text-request-info">Request Info</a>
-			</div>
-			<div class="col-sm-3">
-				<p class="text-copyright">© 2016 Politecnico di Milano</p>
-			</div>
-		</div>
 	</body>
+	<!-- Load footer -->
+	<br>
+	<br>
+	<div class="footer" align="center">
+		<div class="col-sm-3">
+			<p class="text-follow">FOLLOW US IN SOCIAL MEDIA</p>
+			<img class="img-responsive" src="../../img/Followus.png" style="width:358px;height:50px" alt="FollowUs" />
+		</div>
+		<div class="col-sm-3">
+			<p class="text-contact">Contact us:</p><p> Tel.: 02 93746739<br/> Email: info@tim.it<br/> Fax: 02 93746739<br/></p>
+		</div>
+		<div class="col-sm-3">
+			<a href="../infoRequest.php" class="text-request-info">Request Info</a>
+		</div>
+		<div class="col-sm-3">
+			<p class="text-copyright">© 2016 Politecnico di Milano</p>
+		</div>
+	</div>
 </html>

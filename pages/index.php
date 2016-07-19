@@ -42,19 +42,19 @@
 				</button>
 			</div>
 			<div class="collapse navbar-collapse" id="myNavbar">
-				
+
 				<ul class="nav navbar-nav">
 					<li class="textHeader">
-						<a href="#" style="color:blue">
+						<a href="device.php" style="color:blue">
 							<span class="glyphicon glyphicon-phone"></span>DEVICE
 						</a>
 					</li>
-					<li class="textHeader"><a href="#" style="color:blue"><span class="glyphicon glyphicon-globe"></span> SMART LIFE SERVICE</a></li>
-					<li class="textHeader"><a href="#" style="color:blue"><span class="glyphicon glyphicon-question-sign"></span>ASSISTANCE SERVICE</a></li>
+					<li class="textHeader"><a href="smartLife.php" style="color:blue"><span class="glyphicon glyphicon-globe"></span> SMART LIFE SERVICE</a></li>
+					<li class="textHeader"><a href="assistanceService.php" style="color:blue"><span class="glyphicon glyphicon-question-sign"></span>ASSISTANCE SERVICE</a></li>
 				</ul>
-				
+
 				<ul class="nav navbar-nav navbar-right">
-					<li class="textHeader"><a href="#" style="color:blue"><span class="glyphicon glyphicon-user"></span> WHO WE ARE</a></li>
+					<li class="textHeader"><a href="WhoWeAre.php" style="color:blue"><span class="glyphicon glyphicon-user"></span> WHO WE ARE</a></li>
 					<li class="textHeader"><a href="#" style="color:blue"><span class="glyphicon glyphicon-text-size"></span>IM</a></li>
 				</ul>
 			</div>
@@ -127,25 +127,21 @@
 		</div>
 
 		<div class="panel panel-default">
-			<div class="panel-body" align="center">
 
-				<div class="col-sm-6" style="margin-bottom:30px;"	>
-					<a href="../pages/Devices/showDevice.php?id=2">
-						<img src="../img/iphone6.JPG" class="img-responsive"
-							  style="width:580px;height:250px" alt="Iphone6" align="left"/>
-					</a>
-				</div>
+			<div class="col-sm-12" style="margin-bottom:20%">
 
-				<div class="col-sm-6" style="margin-bottom:30px;">
-					<a href="../pages/Devices/showDevice.php?id=5">
-						<img src="../img/640x480_MayS7.jpg"  class="img-responsive"
-							  style="width:580px;height:250px" alt="Samsung"/>
-					</a>
-				</div>
-
+				<a href="outlet.php">
+					<img src="../img/out.jpg" class="img-responsive"
+						  style="width:1300px;height:250px" alt="Iphone6" align="center"/>
+				</a>
 			</div>
 		</div>
-
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<div class="panel panel-default">
 			<div class="panel-body" align="center" style="font-size: 22px;font-family: monospace; background-color:firebrick">
 
@@ -157,7 +153,7 @@
 
 				<div class="col-sm-3 breadcrumb" style="margin-top:1%">
 					<a href="WhoWeAreAwards.php">
-						AWARS
+						AWARDS
 					</a>
 				</div>
 

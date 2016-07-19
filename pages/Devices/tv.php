@@ -29,33 +29,35 @@
 
 
 	<!-- Load header -->
-	<div class="header">	
-		<figure><a href="../index.php"><img id="logo" src="../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a></figure>
+	<nav class="navbar navbar-inverse" style="background-color:darkblue;" style="position:fixed">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="../index.php"><img id="logo" src="../../img/Il-nuovo-Marchio-TIM_13-gennaio-2016.jpg" alt="TIM-Photo"></a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
 
-		<div align="center">		
-			<ul class="nav nav-tabs" id="landmarks">
-				<li><figure align="center"><a href="../device.php"><img src="../../img/Devices.jpg" id="device" alt="Device">
-					<figcaption>DEVICE</figcaption></a></figure>
-				</li>
+				<ul class="nav navbar-nav">
+					<li class="textHeader">
+						<a href="../device.php" style="color:blue">
+							<span class="glyphicon glyphicon-phone"></span>DEVICE
+						</a>
+					</li>
+					<li class="textHeader"><a href="../smartLife.php" style="color:blue"><span class="glyphicon glyphicon-globe"></span> SMART LIFE SERVICE</a></li>
+					<li class="textHeader"><a href="../assistanceService.php" style="color:blue"><span class="glyphicon glyphicon-question-sign"></span>ASSISTANCE SERVICE</a></li>
+				</ul>
 
-				<li>
-					<figure><a href="../smartLife.php"><img src="../../img/SL.jpg" id="smartlife" alt="Smart Life Service">
-						<figcaption>SMART LIFE SERVICE</figcaption></a></figure>
-				</li>
-
-				<li>
-					<figure><a href="../assistanceService.php"><img src="../../img/Assistance%20Service.PNG" id="assistance" alt="Assistance-Service">
-						<figcaption>ASSISTANCE SERVICE</figcaption></a></figure>
-				</li>
-
-				<div class="container">
-					<a href="../WhoWeAre.php"><div class="topright">WHO WE ARE</div></a>
-					<a href="../MyTim.php"><div class="bottomright">MY TIM</div></a>
-				</div>
-
-			</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="textHeader"><a href="../WhoWeAre.php" style="color:blue"><span class="glyphicon glyphicon-user"></span> WHO WE ARE</a></li>
+					<li class="textHeader"><a href="#" style="color:blue"><span class="glyphicon glyphicon-text-size"></span>IM</a></li>
+				</ul>
+			</div>
 		</div>
-	</div>
+	</nav>
 
 	<!-- BreadCrumbs -->
 	<div class="btn-group btn-breadcrumb">
@@ -177,7 +179,7 @@
 
 			</div>
 		</div>
-
+	</body>
 
 
 	<br>
@@ -201,11 +203,5 @@
 			<p class="text-copyright">© 2016 Politecnico di Milano</p>
 		</div>
 	</div>	
-	</body>
 </html>
 
-<script>
-	function myFunction() {
-
-	}
-</script>
